@@ -56,13 +56,13 @@ def load_and_preprocess_images(image_dir, img_size=(128, 128), batch_size=32):
 
 
     # TEXT 
-text_path = r"C:\Users\Lenovo\Desktop\Project ML\Medical Prediction - Copy\data\notes\Disease_symptom_and_patient_profile_dataset.csv" 
+text_path = "../../data/nots/Disease_symptom_and_patient_profile_dataset.csv"
 df_text = load_and_clean_text(text_path)
 print("Text data sample:")
 print(df_text.head())
 
     # IMAGE 
-image_path = r"C:\Users\Lenovo\Desktop\Project ML\Medical Prediction - Copy\data\images\train"
+image_path = "../../data/images/train"
 train_gen = load_and_preprocess_images(image_path)
 imgs, labels = next(train_gen)
 print("Image batch shape:", imgs.shape)

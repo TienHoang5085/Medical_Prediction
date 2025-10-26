@@ -1,301 +1,1901 @@
-patientid,sex,age,finding,temperature,pO2 saturation,notes
-P001,M,45,COVID-19,38.5,89,"Cough and shortness of breath"
-P002,F,32,NORMAL,36.7,98,"No symptoms"
-P003,M,56,PNEUMONIA,39.0,88,"High fever, cough, and shortness of breath"
-P004,F,41,COVID-19,37.9,90,"Dry cough"
-P005,M,29,NORMAL,36.5,99,"Healthy patient, no cough"
-P006,M,63,PNEUMONIA,38.7,85,"Fever and breathing difficulty"
-P007,F,52,COVID-19,38.2,91,"Cough, fever"
-P008,F,27,NORMAL,36.4,97,"No sign of infection"
-P009,M,68,PNEUMONIA,39.1,88,"Severe cough and chest pain"
-P010,M,36,COVID-19,37.8,90,"Mild cough and fatigue"
-P011,F,48,NORMAL,36.6,95,"Routine check-up"
-P012,M,70,PNEUMONIA,38.9,86,"Fever and shortness of breath"
-P013,F,50,COVID-19,38.3,91,"Cough and breathing issues"
-P014,M,34,NORMAL,36.8,96,"No health issues"
-P015,M,60,PNEUMONIA,39.4,87,"High fever, cough"
-P016,F,42,COVID-19,38.1,90,"Persistent cough, mild fever"
-P017,M,54,NORMAL,36.5,97,"Normal condition"
-P018,F,58,PNEUMONIA,38.6,85,"Fever, shortness of breath, cough"
-P019,M,46,COVID-19,38.0,92,"Cough and low oxygen level"
-P020,F,39,NORMAL,36.7,98,"No symptoms"
-P021,M,33,COVID-19,37.9,91,"Mild cough"
-P022,F,47,PNEUMONIA,38.8,86,"Severe cough, chest pain"
-P023,M,59,COVID-19,38.5,89,"Shortness of breath"
-P024,F,31,NORMAL,36.6,97,"No fever"
-P025,M,62,PNEUMONIA,39.2,87,"Fever and difficulty breathing"
-P026,F,40,COVID-19,38.0,90,"Dry cough, fatigue"
-P027,M,44,NORMAL,36.4,96,"Healthy"
-P028,F,51,PNEUMONIA,38.9,88,"Cough and fever"
-P029,M,38,COVID-19,38.3,92,"Mild cough and sore throat"
-P030,F,29,NORMAL,36.5,99,"No signs of illness"
-P031,M,66,PNEUMONIA,39.0,85,"Severe fever and shortness of breath"
-P032,F,58,COVID-19,38.4,90,"Dry cough, fatigue"
-P033,M,35,NORMAL,36.7,98,"Normal condition"
-P034,F,63,PNEUMONIA,39.3,87,"Cough, fever"
-P035,M,49,COVID-19,38.2,91,"Cough, low oxygen"
-P036,F,30,NORMAL,36.6,96,"No symptoms"
-P037,M,72,PNEUMONIA,39.1,84,"Fever, cough, chest tightness"
-P038,F,46,COVID-19,38.0,89,"Persistent cough, fever"
-P039,M,53,NORMAL,36.5,97,"No issues detected"
-P040,F,60,PNEUMONIA,38.8,86,"High fever and breathing issues"
-P041,M,42,COVID-19,38.3,90,"Dry cough and sore throat"
-P042,F,37,NORMAL,36.6,98,"Normal"
-P043,M,55,PNEUMONIA,39.1,87,"Cough and fever"
-P044,F,64,COVID-19,38.5,89,"Low oxygen, short breath"
-P045,M,39,NORMAL,36.4,96,"Healthy"
-P046,F,70,PNEUMONIA,39.4,85,"Fever, short breath, chest pain"
-P047,M,48,COVID-19,38.2,90,"Dry cough, fatigue"
-P048,F,28,NORMAL,36.7,97,"No infection signs"
-P049,M,61,PNEUMONIA,38.9,88,"Cough and high fever"
-P050,F,43,COVID-19,38.0,90,"Fatigue and cough"
-P051,M,32,NORMAL,36.5,98,"Healthy"
-P052,F,57,PNEUMONIA,39.0,86,"Cough, fever, breathing difficulty"
-P053,M,46,COVID-19,38.1,91,"Mild cough and fever"
-P054,F,41,NORMAL,36.8,97,"Normal check-up"
-P055,M,69,PNEUMONIA,39.2,86,"High fever, chest pain"
-P056,F,53,COVID-19,38.3,90,"Dry cough and fatigue"
-P057,M,36,NORMAL,36.7,99,"No illness"
-P058,F,65,PNEUMONIA,38.9,85,"Cough and breathing issues"
-P059,M,47,COVID-19,38.4,91,"Short breath, cough"
-P060,F,33,NORMAL,36.6,97,"Healthy"
-P061,M,50,PNEUMONIA,39.1,87,"Fever, shortness of breath"
-P062,F,59,COVID-19,38.2,90,"Cough, fatigue"
-P063,M,40,NORMAL,36.5,96,"Normal"
-P064,F,68,PNEUMONIA,39.3,85,"Cough, fever"
-P065,M,45,COVID-19,38.1,89,"Low oxygen, mild cough"
-P066,F,34,NORMAL,36.6,98,"Healthy"
-P067,M,71,PNEUMONIA,39.0,84,"High fever, breathing issues"
-P068,F,49,COVID-19,38.3,90,"Cough and sore throat"
-P069,M,38,NORMAL,36.7,99,"No fever"
-P070,F,61,PNEUMONIA,39.2,86,"Severe cough and low oxygen"
-P071,M,46,COVID-19,38.2,91,"Dry cough and mild fever"
-P072,F,51,PNEUMONIA,39.1,87,"Severe cough, shortness of breath"
-P073,M,37,NORMAL,36.6,98,"Healthy condition"
-P074,F,44,COVID-19,38.0,90,"Fatigue, mild cough"
-P075,M,65,PNEUMONIA,39.3,85,"High fever and breathing difficulty"
-P076,F,41,NORMAL,36.5,97,"No health issues"
-P077,M,54,COVID-19,38.4,89,"Cough, short breath, fatigue"
-P078,F,60,PNEUMONIA,38.9,86,"Chest pain, fever"
-P079,M,39,NORMAL,36.6,98,"Normal condition"
-P080,F,48,COVID-19,38.1,91,"Cough and fever"
-P081,M,52,PNEUMONIA,39.0,87,"Fever, cough, breathing issues"
-P082,F,33,NORMAL,36.7,97,"No infection detected"
-P083,M,62,COVID-19,38.3,90,"Dry cough, fatigue"
-P084,F,56,PNEUMONIA,38.8,85,"Cough and low oxygen"
-P085,M,47,NORMAL,36.5,98,"Healthy"
-P086,F,43,COVID-19,38.2,91,"Cough and tiredness"
-P087,M,70,PNEUMONIA,39.1,84,"Short breath, high fever"
-P088,F,36,NORMAL,36.7,99,"Normal"
-P089,M,64,COVID-19,38.4,90,"Dry cough, low oxygen"
-P090,F,29,NORMAL,36.5,97,"Healthy patient"
-P091,M,59,PNEUMONIA,39.0,86,"Fever, shortness of breath"
-P092,F,40,COVID-19,38.1,89,"Persistent cough"
-P093,M,34,NORMAL,36.6,98,"No symptoms"
-P094,F,67,PNEUMONIA,39.2,86,"Chest pain, high fever"
-P095,M,50,COVID-19,38.3,91,"Cough, mild fever"
-P096,F,46,NORMAL,36.7,98,"Healthy"
-P097,M,61,PNEUMONIA,39.0,87,"Fever and difficulty breathing"
-P098,F,45,COVID-19,38.2,90,"Dry cough, fatigue"
-P099,M,38,NORMAL,36.6,99,"No infection"
-P100,F,58,PNEUMONIA,39.3,85,"Cough and breathing issues"
-P101,M,49,COVID-19,38.1,91,"Low oxygen, cough"
-P102,F,32,NORMAL,36.5,97,"No issues detected"
-P103,M,72,PNEUMONIA,39.4,84,"Fever, cough, chest pain"
-P104,F,53,COVID-19,38.3,89,"Dry cough and fatigue"
-P105,M,40,NORMAL,36.7,98,"Normal condition"
-P106,F,66,PNEUMONIA,39.2,86,"Cough, fever, breathing problems"
-P107,M,44,COVID-19,38.0,90,"Mild cough and low oxygen"
-P108,F,31,NORMAL,36.6,97,"Healthy"
-P109,M,69,PNEUMONIA,39.3,85,"Fever, short breath"
-P110,F,55,COVID-19,38.4,89,"Cough and fatigue"
-P111,M,37,NORMAL,36.5,99,"Normal health"
-P112,F,63,PNEUMONIA,39.1,86,"Cough, fever"
-P113,M,46,COVID-19,38.2,91,"Mild fever and cough"
-P114,F,49,NORMAL,36.6,98,"No fever"
-P115,M,60,PNEUMONIA,38.9,87,"Short breath, chest pain"
-P116,F,42,COVID-19,38.1,90,"Cough, fatigue"
-P117,M,35,NORMAL,36.5,97,"Healthy"
-P118,F,68,PNEUMONIA,39.2,85,"Fever, breathing issues"
-P119,M,53,COVID-19,38.3,89,"Dry cough"
-P120,F,39,NORMAL,36.7,98,"Normal check-up"
-P121,M,57,PNEUMONIA,39.1,86,"Fever, cough"
-P122,F,48,COVID-19,38.0,90,"Mild cough, fatigue"
-P123,M,70,PNEUMONIA,39.3,84,"Chest pain, fever"
-P124,F,45,COVID-19,38.2,91,"Dry cough, sore throat"
-P125,M,33,NORMAL,36.6,98,"Healthy"
-P126,F,62,PNEUMONIA,38.9,86,"Fever, short breath"
-P127,M,47,COVID-19,38.4,90,"Cough, low oxygen"
-P128,F,41,NORMAL,36.5,99,"No issues"
-P129,M,65,PNEUMONIA,39.0,85,"Fever, chest pain"
-P130,F,50,COVID-19,38.3,90,"Fatigue, cough"
-P131,M,38,NORMAL,36.7,98,"Healthy"
-P132,F,60,PNEUMONIA,39.1,87,"Cough, fever, breathing difficulty"
-P133,M,55,COVID-19,38.2,89,"Shortness of breath"
-P134,F,43,NORMAL,36.6,97,"Normal"
-P135,M,68,PNEUMONIA,39.2,86,"Cough, fever"
-P136,F,36,COVID-19,38.0,91,"Dry cough"
-P137,M,49,NORMAL,36.5,98,"Healthy condition"
-P138,F,58,PNEUMONIA,38.9,85,"Fever, cough, chest tightness"
-P139,M,45,COVID-19,38.1,90,"Cough, fatigue"
-P140,F,29,NORMAL,36.6,97,"No symptoms"
-P141,M,63,PNEUMONIA,39.3,86,"Fever, short breath"
-P142,F,52,COVID-19,38.4,89,"Low oxygen, dry cough"
-P143,M,40,NORMAL,36.5,98,"Normal condition"
-P144,F,61,PNEUMONIA,39.1,85,"Cough, fever"
-P145,M,54,COVID-19,38.2,90,"Fatigue, cough"
-P146,F,47,NORMAL,36.7,98,"Healthy"
-P147,M,67,PNEUMONIA,39.0,86,"Fever and chest tightness"
-P148,F,44,COVID-19,38.3,91,"Dry cough and low oxygen"
-P149,M,35,NORMAL,36.6,97,"No infection signs"
-P150,F,69,PNEUMONIA,39.2,85,"High fever and breathing issues"
-P151,M,42,COVID-19,38.3,90,"Dry cough, mild fever"
-P152,F,37,NORMAL,36.6,98,"Healthy, no symptoms"
-P153,M,55,PNEUMONIA,39.0,86,"Fever, cough, short breath"
-P154,F,49,COVID-19,38.1,91,"Fatigue, mild cough"
-P155,M,60,PNEUMONIA,39.2,85,"Cough, fever, chest pain"
-P156,F,33,NORMAL,36.5,98,"Routine check-up"
-P157,M,51,COVID-19,38.0,90,"Dry cough, fatigue"
-P158,F,68,PNEUMONIA,39.3,85,"High fever, breathing difficulty"
-P159,M,39,NORMAL,36.6,97,"Normal condition"
-P160,F,45,COVID-19,38.4,89,"Cough, low oxygen"
-P161,M,48,PNEUMONIA,39.0,87,"Chest pain, cough"
-P162,F,36,NORMAL,36.5,98,"Healthy"
-P163,M,67,COVID-19,38.3,90,"Persistent cough, fatigue"
-P164,F,58,PNEUMONIA,38.8,85,"Fever and breathing difficulty"
-P165,M,40,NORMAL,36.7,97,"Normal"
-P166,F,61,COVID-19,38.2,91,"Dry cough, mild fever"
-P167,M,54,PNEUMONIA,39.1,86,"Fever, short breath"
-P168,F,43,NORMAL,36.5,98,"Healthy patient"
-P169,M,70,COVID-19,38.5,89,"Cough, low oxygen"
-P170,F,47,PNEUMONIA,39.0,86,"Cough, chest tightness"
-P171,M,32,NORMAL,36.6,97,"No symptoms"
-P172,F,52,COVID-19,38.1,91,"Fatigue, cough"
-P173,M,63,PNEUMONIA,39.2,85,"High fever, shortness of breath"
-P174,F,44,NORMAL,36.5,98,"Normal check-up"
-P175,M,56,COVID-19,38.4,89,"Dry cough, breathing issue"
-P176,F,59,PNEUMONIA,39.0,86,"Fever, chest pain"
-P177,M,38,NORMAL,36.6,99,"Healthy"
-P178,F,66,COVID-19,38.3,90,"Cough, low oxygen"
-P179,M,48,PNEUMONIA,39.1,86,"Fever, short breath"
-P180,F,42,NORMAL,36.7,98,"Normal"
-P181,M,65,COVID-19,38.2,91,"Dry cough, mild fever"
-P182,F,46,PNEUMONIA,38.9,85,"Cough, breathing problems"
-P183,M,34,NORMAL,36.6,98,"Healthy"
-P184,F,53,COVID-19,38.1,90,"Fatigue, cough"
-P185,M,60,PNEUMONIA,39.0,86,"High fever, cough"
-P186,F,49,NORMAL,36.5,98,"Normal"
-P187,M,68,COVID-19,38.4,89,"Cough, low oxygen"
-P188,F,50,PNEUMONIA,39.2,85,"Chest pain, short breath"
-P189,M,45,NORMAL,36.6,97,"Healthy"
-P190,F,62,COVID-19,38.3,90,"Dry cough, fatigue"
-P191,M,59,PNEUMONIA,39.0,86,"Fever, cough"
-P192,F,41,NORMAL,36.5,98,"Normal condition"
-P193,M,70,COVID-19,38.2,91,"Cough, mild fever"
-P194,F,55,PNEUMONIA,39.1,85,"Fever, breathing difficulty"
-P195,M,37,NORMAL,36.7,98,"Healthy patient"
-P196,F,61,COVID-19,38.3,89,"Dry cough"
-P197,M,64,PNEUMONIA,39.3,84,"Fever, chest pain"
-P198,F,43,NORMAL,36.6,98,"Normal check"
-P199,M,66,COVID-19,38.4,90,"Low oxygen, cough"
-P200,F,48,PNEUMONIA,39.2,86,"Fever, short breath"
-P201,M,41,NORMAL,36.5,98,"Healthy"
-P202,F,57,COVID-19,38.2,90,"Fatigue, cough"
-P203,M,69,PNEUMONIA,39.1,85,"High fever, short breath"
-P204,F,34,NORMAL,36.6,99,"Normal"
-P205,M,63,COVID-19,38.3,89,"Dry cough, fatigue"
-P206,F,60,PNEUMONIA,39.2,86,"Cough, fever"
-P207,M,39,NORMAL,36.7,97,"Healthy"
-P208,F,68,COVID-19,38.4,90,"Cough, low oxygen"
-P209,M,51,PNEUMONIA,39.0,86,"Chest pain, short breath"
-P210,F,47,NORMAL,36.5,98,"Normal condition"
-P211,M,58,COVID-19,38.2,90,"Dry cough, mild fever"
-P212,F,45,PNEUMONIA,38.9,85,"Fever, breathing issues"
-P213,M,35,NORMAL,36.6,97,"Healthy"
-P214,F,67,COVID-19,38.3,89,"Cough, fatigue"
-P215,M,54,PNEUMONIA,39.1,85,"Fever, chest tightness"
-P216,F,42,NORMAL,36.5,98,"No symptoms"
-P217,M,62,COVID-19,38.4,90,"Cough, low oxygen"
-P218,F,56,PNEUMONIA,39.2,86,"High fever, breathing difficulty"
-P219,M,46,NORMAL,36.6,97,"Healthy"
-P220,F,49,COVID-19,38.1,91,"Dry cough, fatigue"
-P221,M,60,PNEUMONIA,39.0,85,"Fever, chest pain"
-P222,F,40,NORMAL,36.5,98,"Healthy"
-P223,M,70,COVID-19,38.3,89,"Cough, fatigue"
-P224,F,59,PNEUMONIA,39.2,86,"High fever, short breath"
-P225,M,44,NORMAL,36.7,98,"Normal"
-P226,F,63,COVID-19,38.4,90,"Dry cough, low oxygen"
-P227,M,53,PNEUMONIA,39.1,85,"Cough, chest pain"
-P228,F,36,NORMAL,36.6,97,"Healthy"
-P229,M,68,COVID-19,38.2,90,"Cough, fatigue"
-P230,F,61,PNEUMONIA,39.3,86,"Fever, breathing issues"
-P231,M,50,NORMAL,36.7,98,"Normal"
-P232,F,46,COVID-19,38.1,91,"Dry cough, mild fever"
-P233,M,66,PNEUMONIA,39.0,86,"Fever, chest tightness"
-P234,F,38,NORMAL,36.6,97,"Healthy"
-P235,M,57,COVID-19,38.4,90,"Cough, low oxygen"
-P236,F,64,PNEUMONIA,39.1,85,"High fever, short breath"
-P237,M,47,NORMAL,36.5,98,"Normal condition"
-P238,F,69,COVID-19,38.2,91,"Fatigue, dry cough"
-P239,M,62,PNEUMONIA,39.2,85,"Cough, fever"
-P240,F,43,NORMAL,36.6,97,"Healthy"
-P241,M,59,COVID-19,38.3,89,"Cough, low oxygen"
-P242,F,55,PNEUMONIA,39.0,86,"Chest pain, short breath"
-P243,M,41,NORMAL,36.5,98,"Normal"
-P244,F,65,COVID-19,38.4,90,"Dry cough, fatigue"
-P245,M,48,PNEUMONIA,39.1,85,"Fever, breathing difficulty"
-P246,F,34,NORMAL,36.7,97,"Healthy"
-P247,M,68,COVID-19,38.2,89,"Cough, mild fever"
-P248,F,52,PNEUMONIA,39.3,86,"Chest tightness, fever"
-P249,M,37,NORMAL,36.5,98,"Healthy patient"
-P250,F,70,COVID-19,38.3,90,"Dry cough, fatigue"
-P251,M,58,PNEUMONIA,39.2,86,"Fever, breathing issue"
-P252,F,44,NORMAL,36.7,98,"Normal"
-P253,M,64,COVID-19,38.1,91,"Cough, low oxygen"
-P254,F,61,PNEUMONIA,39.0,86,"Cough, fever"
-P255,M,42,NORMAL,36.5,98,"Healthy"
-P256,F,57,COVID-19,38.3,90,"Dry cough, fatigue"
-P257,M,66,PNEUMONIA,39.1,85,"Chest pain, short breath"
-P258,F,48,NORMAL,36.6,98,"Normal"
-P259,M,70,COVID-19,38.4,89,"Cough, fatigue"
-P260,F,54,PNEUMONIA,39.2,86,"Fever, breathing issues"
-P261,M,45,NORMAL,36.7,97,"Healthy"
-P262,F,62,COVID-19,38.1,90,"Dry cough, low oxygen"
-P263,M,60,PNEUMONIA,39.3,85,"Chest pain, fever"
-P264,F,39,NORMAL,36.6,98,"Normal"
-P265,M,67,COVID-19,38.2,91,"Cough, fatigue"
-P266,F,63,PNEUMONIA,39.0,86,"Fever, short breath"
-P267,M,51,NORMAL,36.5,98,"Healthy"
-P268,F,59,COVID-19,38.3,90,"Dry cough, mild fever"
-P269,M,65,PNEUMONIA,39.2,85,"Fever, chest pain"
-P270,F,47,NORMAL,36.6,97,"Normal condition"
-P271,M,68,COVID-19,38.4,89,"Cough, low oxygen"
-P272,F,56,PNEUMONIA,39.1,86,"High fever, breathing issue"
-P273,M,43,NORMAL,36.5,98,"Healthy"
-P274,F,61,COVID-19,38.2,90,"Dry cough, fatigue"
-P275,M,58,PNEUMONIA,39.3,85,"Cough, fever"
-P276,F,40,NORMAL,36.6,98,"Normal"
-P277,M,70,COVID-19,38.3,89,"Cough, mild fever"
-P278,F,53,PNEUMONIA,39.0,86,"Chest pain, short breath"
-P279,M,46,NORMAL,36.5,98,"Healthy"
-P280,F,65,COVID-19,38.1,91,"Fatigue, cough"
-P281,M,62,PNEUMONIA,39.2,85,"Fever, breathing issue"
-P282,F,41,NORMAL,36.6,98,"Normal"
-P283,M,60,COVID-19,38.4,89,"Dry cough, low oxygen"
-P284,F,48,PNEUMONIA,39.1,86,"Cough, fever"
-P285,M,37,NORMAL,36.5,97,"Healthy"
-P286,F,69,COVID-19,38.3,90,"Fatigue, dry cough"
-P287,M,57,PNEUMONIA,39.2,85,"Fever, chest pain"
-P288,F,43,NORMAL,36.6,98,"Normal"
-P289,M,64,COVID-19,38.2,91,"Cough, fatigue"
-P290,F,59,PNEUMONIA,39.0,86,"High fever, short breath"
-P291,M,49,NORMAL,36.7,98,"Normal"
-P292,F,66,COVID-19,38.4,90,"Dry cough, mild fever"
-P293,M,63,PNEUMONIA,39.3,85,"Fever, chest pain"
-P294,F,45,NORMAL,36.5,98,"Healthy"
-P295,M,68,COVID-19,38.1,89,"Cough, low oxygen"
-P296,F,61,PNEUMONIA,39.2,85,"Fever, breathing issue"
-P297,M,52,NORMAL,36.6,97,"Normal condition"
-P298,F,70,COVID-19,38.3,90,"Dry cough, fatigue"
-P299,M,55,PNEUMONIA,39.1,86,"High fever, short breath"
-P300,F,44,NORMAL,36.5,98,"Healthy"
+patientid,sex,age,temperature,pO2 saturation,notes,cough,fever,healthy,fatigue,shortness_of_breath,chest_pain,COVID-19,PNEUMONIA,NORMAL
+P0001,1,45,38.5,89,cough and shortness of breath,1,0,0,0,1,0,True,False,False
+P0002,0,32,36.7,98,no symptoms,0,0,1,0,0,0,False,False,True
+P0003,1,56,39.0,88,high fever cough and shortness of breath,1,1,0,0,1,0,False,True,False
+P0004,0,41,37.9,90,dry cough,1,0,0,0,0,0,True,False,False
+P0005,1,29,36.5,99,healthy patient no cough,1,0,1,0,0,0,False,False,True
+P0006,1,63,38.7,85,fever and breathing difficulty,0,1,0,0,1,0,False,True,False
+P0007,0,52,38.2,91,cough fever,1,1,0,0,0,0,True,False,False
+P0008,0,27,36.4,97,no sign of infection,0,0,0,0,0,0,False,False,True
+P0009,1,68,39.1,88,severe cough and chest pain,1,0,0,0,0,1,False,True,False
+P0010,1,36,37.8,90,mild cough and fatigue,1,0,0,1,0,0,True,False,False
+P0011,0,48,36.6,95,routine check up,0,0,1,0,0,0,False,False,True
+P0012,1,70,38.9,86,fever and shortness of breath,0,1,0,0,1,0,False,True,False
+P0013,0,50,38.3,91,cough and breathing issues,1,0,0,0,1,0,True,False,False
+P0014,1,34,36.8,96,no health issues,0,0,0,0,0,0,False,False,True
+P0015,1,60,39.4,87,high fever cough,1,1,0,0,0,0,False,True,False
+P0016,0,42,38.1,90,persistent cough mild fever,1,1,0,0,0,0,True,False,False
+P0017,1,54,36.5,97,normal condition,0,0,1,0,0,0,False,False,True
+P0018,0,58,38.6,85,fever shortness of breath cough,1,1,0,0,1,0,False,True,False
+P0019,1,46,38.0,92,cough and low oxygen level,1,0,0,0,0,0,True,False,False
+P0020,0,39,36.7,98,no symptoms,0,0,1,0,0,0,False,False,True
+P0021,1,33,37.9,91,mild cough,1,0,0,0,0,0,True,False,False
+P0022,0,47,38.8,86,severe cough chest pain,1,0,0,0,0,1,False,True,False
+P0023,1,59,38.5,89,shortness of breath,0,0,0,0,1,0,True,False,False
+P0024,0,31,36.6,97,no fever,0,1,0,0,0,0,False,False,True
+P0025,1,62,39.2,87,fever and difficulty breathing,0,1,0,0,1,0,False,True,False
+P0026,0,40,38.0,90,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0027,1,44,36.4,96,healthy,0,0,1,0,0,0,False,False,True
+P0028,0,51,38.9,88,cough and fever,1,1,0,0,0,0,False,True,False
+P0029,1,38,38.3,92,mild cough and sore throat,1,0,0,0,0,0,True,False,False
+P0030,0,29,36.5,99,no signs of illness,0,0,0,0,0,0,False,False,True
+P0031,1,66,39.0,85,severe fever and shortness of breath,0,1,0,0,1,0,False,True,False
+P0032,0,58,38.4,90,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0033,1,35,36.7,98,normal condition,0,0,1,0,0,0,False,False,True
+P0034,0,63,39.3,87,cough fever,1,1,0,0,0,0,False,True,False
+P0035,1,49,38.2,91,cough low oxygen,1,0,0,0,0,0,True,False,False
+P0036,0,30,36.6,96,no symptoms,0,0,1,0,0,0,False,False,True
+P0037,1,72,39.1,84,fever cough chest tightness,1,1,0,0,0,0,False,True,False
+P0038,0,46,38.0,89,persistent cough fever,1,1,0,0,0,0,True,False,False
+P0039,1,53,36.5,97,no issues detected,0,0,0,0,0,0,False,False,True
+P0040,0,60,38.8,86,high fever and breathing issues,0,1,0,0,1,0,False,True,False
+P0041,1,42,38.3,90,dry cough and sore throat,1,0,0,0,0,0,True,False,False
+P0042,0,37,36.6,98,normal,0,0,1,0,0,0,False,False,True
+P0043,1,55,39.1,87,cough and fever,1,1,0,0,0,0,False,True,False
+P0044,0,64,38.5,89,low oxygen short breath,0,0,0,0,0,0,True,False,False
+P0045,1,39,36.4,96,healthy,0,0,1,0,0,0,False,False,True
+P0046,0,70,39.4,85,fever short breath chest pain,0,1,0,0,0,1,False,True,False
+P0047,1,48,38.2,90,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0048,0,28,36.7,97,no infection signs,0,0,0,0,0,0,False,False,True
+P0049,1,61,38.9,88,cough and high fever,1,1,0,0,0,0,False,True,False
+P0050,0,43,38.0,90,fatigue and cough,1,0,0,1,0,0,True,False,False
+P0051,1,32,36.5,98,healthy,0,0,1,0,0,0,False,False,True
+P0052,0,57,39.0,86,cough fever breathing difficulty,1,1,0,0,1,0,False,True,False
+P0053,1,46,38.1,91,mild cough and fever,1,1,0,0,0,0,True,False,False
+P0054,0,41,36.8,97,normal check up,0,0,1,0,0,0,False,False,True
+P0055,1,69,39.2,86,high fever chest pain,0,1,0,0,0,1,False,True,False
+P0056,0,53,38.3,90,dry cough and fatigue,1,0,0,1,0,0,True,False,False
+P0057,1,36,36.7,99,no illness,0,0,0,0,0,0,False,False,True
+P0058,0,65,38.9,85,cough and breathing issues,1,0,0,0,1,0,False,True,False
+P0059,1,47,38.4,91,short breath cough,1,0,0,0,0,0,True,False,False
+P0060,0,33,36.6,97,healthy,0,0,1,0,0,0,False,False,True
+P0061,1,50,39.1,87,fever shortness of breath,0,1,0,0,1,0,False,True,False
+P0062,0,59,38.2,90,cough fatigue,1,0,0,1,0,0,True,False,False
+P0063,1,40,36.5,96,normal,0,0,1,0,0,0,False,False,True
+P0064,0,68,39.3,85,cough fever,1,1,0,0,0,0,False,True,False
+P0065,1,45,38.1,89,low oxygen mild cough,1,0,0,0,0,0,True,False,False
+P0066,0,34,36.6,98,healthy,0,0,1,0,0,0,False,False,True
+P0067,1,71,39.0,84,high fever breathing issues,0,1,0,0,1,0,False,True,False
+P0068,0,49,38.3,90,cough and sore throat,1,0,0,0,0,0,True,False,False
+P0069,1,38,36.7,99,no fever,0,1,0,0,0,0,False,False,True
+P0070,0,61,39.2,86,severe cough and low oxygen,1,0,0,0,0,0,False,True,False
+P0071,1,46,38.2,91,dry cough and mild fever,1,1,0,0,0,0,True,False,False
+P0072,0,51,39.1,87,severe cough shortness of breath,1,0,0,0,1,0,False,True,False
+P0073,1,37,36.6,98,healthy condition,0,0,1,0,0,0,False,False,True
+P0074,0,44,38.0,90,fatigue mild cough,1,0,0,1,0,0,True,False,False
+P0075,1,65,39.3,85,high fever and breathing difficulty,0,1,0,0,1,0,False,True,False
+P0076,0,41,36.5,97,no health issues,0,0,0,0,0,0,False,False,True
+P0077,1,54,38.4,89,cough short breath fatigue,1,0,0,1,0,0,True,False,False
+P0078,0,60,38.9,86,chest pain fever,0,1,0,0,0,1,False,True,False
+P0079,1,39,36.6,98,normal condition,0,0,1,0,0,0,False,False,True
+P0080,0,48,38.1,91,cough and fever,1,1,0,0,0,0,True,False,False
+P0081,1,52,39.0,87,fever cough breathing issues,1,1,0,0,1,0,False,True,False
+P0082,0,33,36.7,97,no infection detected,0,0,0,0,0,0,False,False,True
+P0083,1,62,38.3,90,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0084,0,56,38.8,85,cough and low oxygen,1,0,0,0,0,0,False,True,False
+P0085,1,47,36.5,98,healthy,0,0,1,0,0,0,False,False,True
+P0086,0,43,38.2,91,cough and tiredness,1,0,0,1,0,0,True,False,False
+P0087,1,70,39.1,84,short breath high fever,0,1,0,0,0,0,False,True,False
+P0088,0,36,36.7,99,normal,0,0,1,0,0,0,False,False,True
+P0089,1,64,38.4,90,dry cough low oxygen,1,0,0,0,0,0,True,False,False
+P0090,0,29,36.5,97,healthy patient,0,0,1,0,0,0,False,False,True
+P0091,1,59,39.0,86,fever shortness of breath,0,1,0,0,1,0,False,True,False
+P0092,0,40,38.1,89,persistent cough,1,0,0,0,0,0,True,False,False
+P0093,1,34,36.6,98,no symptoms,0,0,1,0,0,0,False,False,True
+P0094,0,67,39.2,86,chest pain high fever,0,1,0,0,0,1,False,True,False
+P0095,1,50,38.3,91,cough mild fever,1,1,0,0,0,0,True,False,False
+P0096,0,46,36.7,98,healthy,0,0,1,0,0,0,False,False,True
+P0097,1,61,39.0,87,fever and difficulty breathing,0,1,0,0,1,0,False,True,False
+P0098,0,45,38.2,90,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0099,1,38,36.6,99,no infection,0,0,0,0,0,0,False,False,True
+P0100,0,58,39.3,85,cough and breathing issues,1,0,0,0,1,0,False,True,False
+P0101,1,49,38.1,91,low oxygen cough,1,0,0,0,0,0,True,False,False
+P0102,0,32,36.5,97,no issues detected,0,0,0,0,0,0,False,False,True
+P0103,1,72,39.4,84,fever cough chest pain,1,1,0,0,0,1,False,True,False
+P0104,0,53,38.3,89,dry cough and fatigue,1,0,0,1,0,0,True,False,False
+P0105,1,40,36.7,98,normal condition,0,0,1,0,0,0,False,False,True
+P0106,0,66,39.2,86,cough fever breathing problems,1,1,0,0,1,0,False,True,False
+P0107,1,44,38.0,90,mild cough and low oxygen,1,0,0,0,0,0,True,False,False
+P0108,0,31,36.6,97,healthy,0,0,1,0,0,0,False,False,True
+P0109,1,69,39.3,85,fever short breath,0,1,0,0,0,0,False,True,False
+P0110,0,55,38.4,89,cough and fatigue,1,0,0,1,0,0,True,False,False
+P0111,1,37,36.5,99,normal health,0,0,1,0,0,0,False,False,True
+P0112,0,63,39.1,86,cough fever,1,1,0,0,0,0,False,True,False
+P0113,1,46,38.2,91,mild fever and cough,1,1,0,0,0,0,True,False,False
+P0114,0,49,36.6,98,no fever,0,1,0,0,0,0,False,False,True
+P0115,1,60,38.9,87,short breath chest pain,0,0,0,0,0,1,False,True,False
+P0116,0,42,38.1,90,cough fatigue,1,0,0,1,0,0,True,False,False
+P0117,1,35,36.5,97,healthy,0,0,1,0,0,0,False,False,True
+P0118,0,68,39.2,85,fever breathing issues,0,1,0,0,1,0,False,True,False
+P0119,1,53,38.3,89,dry cough,1,0,0,0,0,0,True,False,False
+P0120,0,39,36.7,98,normal check up,0,0,1,0,0,0,False,False,True
+P0121,1,57,39.1,86,fever cough,1,1,0,0,0,0,False,True,False
+P0122,0,48,38.0,90,mild cough fatigue,1,0,0,1,0,0,True,False,False
+P0123,1,70,39.3,84,chest pain fever,0,1,0,0,0,1,False,True,False
+P0124,0,45,38.2,91,dry cough sore throat,1,0,0,0,0,0,True,False,False
+P0125,1,33,36.6,98,healthy,0,0,1,0,0,0,False,False,True
+P0126,0,62,38.9,86,fever short breath,0,1,0,0,0,0,False,True,False
+P0127,1,47,38.4,90,cough low oxygen,1,0,0,0,0,0,True,False,False
+P0128,0,41,36.5,99,no issues,0,0,0,0,0,0,False,False,True
+P0129,1,65,39.0,85,fever chest pain,0,1,0,0,0,1,False,True,False
+P0130,0,50,38.3,90,fatigue cough,1,0,0,1,0,0,True,False,False
+P0131,1,38,36.7,98,healthy,0,0,1,0,0,0,False,False,True
+P0132,0,60,39.1,87,cough fever breathing difficulty,1,1,0,0,1,0,False,True,False
+P0133,1,55,38.2,89,shortness of breath,0,0,0,0,1,0,True,False,False
+P0134,0,43,36.6,97,normal,0,0,1,0,0,0,False,False,True
+P0135,1,68,39.2,86,cough fever,1,1,0,0,0,0,False,True,False
+P0136,0,36,38.0,91,dry cough,1,0,0,0,0,0,True,False,False
+P0137,1,49,36.5,98,healthy condition,0,0,1,0,0,0,False,False,True
+P0138,0,58,38.9,85,fever cough chest tightness,1,1,0,0,0,0,False,True,False
+P0139,1,45,38.1,90,cough fatigue,1,0,0,1,0,0,True,False,False
+P0140,0,29,36.6,97,no symptoms,0,0,1,0,0,0,False,False,True
+P0141,1,63,39.3,86,fever short breath,0,1,0,0,0,0,False,True,False
+P0142,0,52,38.4,89,low oxygen dry cough,1,0,0,0,0,0,True,False,False
+P0143,1,40,36.5,98,normal condition,0,0,1,0,0,0,False,False,True
+P0144,0,61,39.1,85,cough fever,1,1,0,0,0,0,False,True,False
+P0145,1,54,38.2,90,fatigue cough,1,0,0,1,0,0,True,False,False
+P0146,0,47,36.7,98,healthy,0,0,1,0,0,0,False,False,True
+P0147,1,67,39.0,86,fever and chest tightness,0,1,0,0,0,0,False,True,False
+P0148,0,44,38.3,91,dry cough and low oxygen,1,0,0,0,0,0,True,False,False
+P0149,1,35,36.6,97,no infection signs,0,0,0,0,0,0,False,False,True
+P0150,0,69,39.2,85,high fever and breathing issues,0,1,0,0,1,0,False,True,False
+P0151,1,42,38.3,90,dry cough mild fever,1,1,0,0,0,0,True,False,False
+P0152,0,37,36.6,98,healthy no symptoms,0,0,1,0,0,0,False,False,True
+P0153,1,55,39.0,86,fever cough short breath,1,1,0,0,0,0,False,True,False
+P0154,0,49,38.1,91,fatigue mild cough,1,0,0,1,0,0,True,False,False
+P0155,1,60,39.2,85,cough fever chest pain,1,1,0,0,0,1,False,True,False
+P0156,0,33,36.5,98,routine check up,0,0,1,0,0,0,False,False,True
+P0157,1,51,38.0,90,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0158,0,68,39.3,85,high fever breathing difficulty,0,1,0,0,1,0,False,True,False
+P0159,1,39,36.6,97,normal condition,0,0,1,0,0,0,False,False,True
+P0160,0,45,38.4,89,cough low oxygen,1,0,0,0,0,0,True,False,False
+P0161,1,48,39.0,87,chest pain cough,1,0,0,0,0,1,False,True,False
+P0162,0,36,36.5,98,healthy,0,0,1,0,0,0,False,False,True
+P0163,1,67,38.3,90,persistent cough fatigue,1,0,0,1,0,0,True,False,False
+P0164,0,58,38.8,85,fever and breathing difficulty,0,1,0,0,1,0,False,True,False
+P0165,1,40,36.7,97,normal,0,0,1,0,0,0,False,False,True
+P0166,0,61,38.2,91,dry cough mild fever,1,1,0,0,0,0,True,False,False
+P0167,1,54,39.1,86,fever short breath,0,1,0,0,0,0,False,True,False
+P0168,0,43,36.5,98,healthy patient,0,0,1,0,0,0,False,False,True
+P0169,1,70,38.5,89,cough low oxygen,1,0,0,0,0,0,True,False,False
+P0170,0,47,39.0,86,cough chest tightness,1,0,0,0,0,0,False,True,False
+P0171,1,32,36.6,97,no symptoms,0,0,1,0,0,0,False,False,True
+P0172,0,52,38.1,91,fatigue cough,1,0,0,1,0,0,True,False,False
+P0173,1,63,39.2,85,high fever shortness of breath,0,1,0,0,1,0,False,True,False
+P0174,0,44,36.5,98,normal check up,0,0,1,0,0,0,False,False,True
+P0175,1,56,38.4,89,dry cough breathing issue,1,0,0,0,1,0,True,False,False
+P0176,0,59,39.0,86,fever chest pain,0,1,0,0,0,1,False,True,False
+P0177,1,38,36.6,99,healthy,0,0,1,0,0,0,False,False,True
+P0178,0,66,38.3,90,cough low oxygen,1,0,0,0,0,0,True,False,False
+P0179,1,48,39.1,86,fever short breath,0,1,0,0,0,0,False,True,False
+P0180,0,42,36.7,98,normal,0,0,1,0,0,0,False,False,True
+P0181,1,65,38.2,91,dry cough mild fever,1,1,0,0,0,0,True,False,False
+P0182,0,46,38.9,85,cough breathing problems,1,0,0,0,1,0,False,True,False
+P0183,1,34,36.6,98,healthy,0,0,1,0,0,0,False,False,True
+P0184,0,53,38.1,90,fatigue cough,1,0,0,1,0,0,True,False,False
+P0185,1,60,39.0,86,high fever cough,1,1,0,0,0,0,False,True,False
+P0186,0,49,36.5,98,normal,0,0,1,0,0,0,False,False,True
+P0187,1,68,38.4,89,cough low oxygen,1,0,0,0,0,0,True,False,False
+P0188,0,50,39.2,85,chest pain short breath,0,0,0,0,0,1,False,True,False
+P0189,1,45,36.6,97,healthy,0,0,1,0,0,0,False,False,True
+P0190,0,62,38.3,90,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0191,1,59,39.0,86,fever cough,1,1,0,0,0,0,False,True,False
+P0192,0,41,36.5,98,normal condition,0,0,1,0,0,0,False,False,True
+P0193,1,70,38.2,91,cough mild fever,1,1,0,0,0,0,True,False,False
+P0194,0,55,39.1,85,fever breathing difficulty,0,1,0,0,1,0,False,True,False
+P0195,1,37,36.7,98,healthy patient,0,0,1,0,0,0,False,False,True
+P0196,0,61,38.3,89,dry cough,1,0,0,0,0,0,True,False,False
+P0197,1,64,39.3,84,fever chest pain,0,1,0,0,0,1,False,True,False
+P0198,0,43,36.6,98,normal check,0,0,1,0,0,0,False,False,True
+P0199,1,66,38.4,90,low oxygen cough,1,0,0,0,0,0,True,False,False
+P0200,0,48,39.2,86,fever short breath,0,1,0,0,0,0,False,True,False
+P0201,1,41,36.5,98,healthy,0,0,1,0,0,0,False,False,True
+P0202,0,57,38.2,90,fatigue cough,1,0,0,1,0,0,True,False,False
+P0203,1,69,39.1,85,high fever short breath,0,1,0,0,0,0,False,True,False
+P0204,0,34,36.6,99,normal,0,0,1,0,0,0,False,False,True
+P0205,1,63,38.3,89,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0206,0,60,39.2,86,cough fever,1,1,0,0,0,0,False,True,False
+P0207,1,39,36.7,97,healthy,0,0,1,0,0,0,False,False,True
+P0208,0,68,38.4,90,cough low oxygen,1,0,0,0,0,0,True,False,False
+P0209,1,51,39.0,86,chest pain short breath,0,0,0,0,0,1,False,True,False
+P0210,0,47,36.5,98,normal condition,0,0,1,0,0,0,False,False,True
+P0211,1,58,38.2,90,dry cough mild fever,1,1,0,0,0,0,True,False,False
+P0212,0,45,38.9,85,fever breathing issues,0,1,0,0,1,0,False,True,False
+P0213,1,35,36.6,97,healthy,0,0,1,0,0,0,False,False,True
+P0214,0,67,38.3,89,cough fatigue,1,0,0,1,0,0,True,False,False
+P0215,1,54,39.1,85,fever chest tightness,0,1,0,0,0,0,False,True,False
+P0216,0,42,36.5,98,no symptoms,0,0,1,0,0,0,False,False,True
+P0217,1,62,38.4,90,cough low oxygen,1,0,0,0,0,0,True,False,False
+P0218,0,56,39.2,86,high fever breathing difficulty,0,1,0,0,1,0,False,True,False
+P0219,1,46,36.6,97,healthy,0,0,1,0,0,0,False,False,True
+P0220,0,49,38.1,91,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0221,1,60,39.0,85,fever chest pain,0,1,0,0,0,1,False,True,False
+P0222,0,40,36.5,98,healthy,0,0,1,0,0,0,False,False,True
+P0223,1,70,38.3,89,cough fatigue,1,0,0,1,0,0,True,False,False
+P0224,0,59,39.2,86,high fever short breath,0,1,0,0,0,0,False,True,False
+P0225,1,44,36.7,98,normal,0,0,1,0,0,0,False,False,True
+P0226,0,63,38.4,90,dry cough low oxygen,1,0,0,0,0,0,True,False,False
+P0227,1,53,39.1,85,cough chest pain,1,0,0,0,0,1,False,True,False
+P0228,0,36,36.6,97,healthy,0,0,1,0,0,0,False,False,True
+P0229,1,68,38.2,90,cough fatigue,1,0,0,1,0,0,True,False,False
+P0230,0,61,39.3,86,fever breathing issues,0,1,0,0,1,0,False,True,False
+P0231,1,50,36.7,98,normal,0,0,1,0,0,0,False,False,True
+P0232,0,46,38.1,91,dry cough mild fever,1,1,0,0,0,0,True,False,False
+P0233,1,66,39.0,86,fever chest tightness,0,1,0,0,0,0,False,True,False
+P0234,0,38,36.6,97,healthy,0,0,1,0,0,0,False,False,True
+P0235,1,57,38.4,90,cough low oxygen,1,0,0,0,0,0,True,False,False
+P0236,0,64,39.1,85,high fever short breath,0,1,0,0,0,0,False,True,False
+P0237,1,47,36.5,98,normal condition,0,0,1,0,0,0,False,False,True
+P0238,0,69,38.2,91,fatigue dry cough,1,0,0,1,0,0,True,False,False
+P0239,1,62,39.2,85,cough fever,1,1,0,0,0,0,False,True,False
+P0240,0,43,36.6,97,healthy,0,0,1,0,0,0,False,False,True
+P0241,1,59,38.3,89,cough low oxygen,1,0,0,0,0,0,True,False,False
+P0242,0,55,39.0,86,chest pain short breath,0,0,0,0,0,1,False,True,False
+P0243,1,41,36.5,98,normal,0,0,1,0,0,0,False,False,True
+P0244,0,65,38.4,90,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0245,1,48,39.1,85,fever breathing difficulty,0,1,0,0,1,0,False,True,False
+P0246,0,34,36.7,97,healthy,0,0,1,0,0,0,False,False,True
+P0247,1,68,38.2,89,cough mild fever,1,1,0,0,0,0,True,False,False
+P0248,0,52,39.3,86,chest tightness fever,0,1,0,0,0,0,False,True,False
+P0249,1,37,36.5,98,healthy patient,0,0,1,0,0,0,False,False,True
+P0250,0,70,38.3,90,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0251,1,58,39.2,86,fever breathing issue,0,1,0,0,1,0,False,True,False
+P0252,0,44,36.7,98,normal,0,0,1,0,0,0,False,False,True
+P0253,1,64,38.1,91,cough low oxygen,1,0,0,0,0,0,True,False,False
+P0254,0,61,39.0,86,cough fever,1,1,0,0,0,0,False,True,False
+P0255,1,42,36.5,98,healthy,0,0,1,0,0,0,False,False,True
+P0256,0,57,38.3,90,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0257,1,66,39.1,85,chest pain short breath,0,0,0,0,0,1,False,True,False
+P0258,0,48,36.6,98,normal,0,0,1,0,0,0,False,False,True
+P0259,1,70,38.4,89,cough fatigue,1,0,0,1,0,0,True,False,False
+P0260,0,54,39.2,86,fever breathing issues,0,1,0,0,1,0,False,True,False
+P0261,1,45,36.7,97,healthy,0,0,1,0,0,0,False,False,True
+P0262,0,62,38.1,90,dry cough low oxygen,1,0,0,0,0,0,True,False,False
+P0263,1,60,39.3,85,chest pain fever,0,1,0,0,0,1,False,True,False
+P0264,0,39,36.6,98,normal,0,0,1,0,0,0,False,False,True
+P0265,1,67,38.2,91,cough fatigue,1,0,0,1,0,0,True,False,False
+P0266,0,63,39.0,86,fever short breath,0,1,0,0,0,0,False,True,False
+P0267,1,51,36.5,98,healthy,0,0,1,0,0,0,False,False,True
+P0268,0,59,38.3,90,dry cough mild fever,1,1,0,0,0,0,True,False,False
+P0269,1,65,39.2,85,fever chest pain,0,1,0,0,0,1,False,True,False
+P0270,0,47,36.6,97,normal condition,0,0,1,0,0,0,False,False,True
+P0271,1,68,38.4,89,cough low oxygen,1,0,0,0,0,0,True,False,False
+P0272,0,56,39.1,86,high fever breathing issue,0,1,0,0,1,0,False,True,False
+P0273,1,43,36.5,98,healthy,0,0,1,0,0,0,False,False,True
+P0274,0,61,38.2,90,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0275,1,58,39.3,85,cough fever,1,1,0,0,0,0,False,True,False
+P0276,0,40,36.6,98,normal,0,0,1,0,0,0,False,False,True
+P0277,1,70,38.3,89,cough mild fever,1,1,0,0,0,0,True,False,False
+P0278,0,53,39.0,86,chest pain short breath,0,0,0,0,0,1,False,True,False
+P0279,1,46,36.5,98,healthy,0,0,1,0,0,0,False,False,True
+P0280,0,65,38.1,91,fatigue cough,1,0,0,1,0,0,True,False,False
+P0281,1,62,39.2,85,fever breathing issue,0,1,0,0,1,0,False,True,False
+P0282,0,41,36.6,98,normal,0,0,1,0,0,0,False,False,True
+P0283,1,60,38.4,89,dry cough low oxygen,1,0,0,0,0,0,True,False,False
+P0284,0,48,39.1,86,cough fever,1,1,0,0,0,0,False,True,False
+P0285,1,37,36.5,97,healthy,0,0,1,0,0,0,False,False,True
+P0286,0,69,38.3,90,fatigue dry cough,1,0,0,1,0,0,True,False,False
+P0287,1,57,39.2,85,fever chest pain,0,1,0,0,0,1,False,True,False
+P0288,0,43,36.6,98,normal,0,0,1,0,0,0,False,False,True
+P0289,1,64,38.2,91,cough fatigue,1,0,0,1,0,0,True,False,False
+P0290,0,59,39.0,86,high fever short breath,0,1,0,0,0,0,False,True,False
+P0291,1,49,36.7,98,normal,0,0,1,0,0,0,False,False,True
+P0292,0,66,38.4,90,dry cough mild fever,1,1,0,0,0,0,True,False,False
+P0293,1,63,39.3,85,fever chest pain,0,1,0,0,0,1,False,True,False
+P0294,0,45,36.5,98,healthy,0,0,1,0,0,0,False,False,True
+P0295,1,68,38.1,89,cough low oxygen,1,0,0,0,0,0,True,False,False
+P0296,0,61,39.2,85,fever breathing issue,0,1,0,0,1,0,False,True,False
+P0297,1,52,36.6,97,normal condition,0,0,1,0,0,0,False,False,True
+P0298,0,70,38.3,90,dry cough fatigue,1,0,0,1,0,0,True,False,False
+P0299,1,55,39.1,86,high fever short breath,0,1,0,0,0,0,False,True,False
+P0300,0,44,36.5,98,healthy,0,0,1,0,0,0,False,False,True
+P0301,0,57,38.2,90,There have been reports of loss of taste and smell.,1,0,0,1,0,0,True,False,False
+P0302,1,49,36.7,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0303,1,69,39.2,86,The patient has a cough and a fever.,0,1,0,0,0,1,False,True,False
+P0304,0,40,36.5,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0305,0,59,39.0,86,A patient has a cough and chest pain.,0,1,0,0,0,1,False,True,False
+P0306,0,41,36.5,99,All test results were normal.,0,0,0,0,0,0,False,False,True
+P0307,0,29,36.5,99,The patient appears healthy.,0,0,0,0,0,0,False,False,True
+P0308,1,72,39.1,84,There are signs of pneumonia on the chest X-ray.,1,1,0,0,0,0,False,True,False
+P0309,0,53,38.3,90,There are reports of a loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P0310,1,53,38.3,89,There was a confirmed COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0311,0,33,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0312,1,50,38.3,91,There was a confirmed COVID-19 case.,1,1,0,0,0,0,True,False,False
+P0313,1,47,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0314,0,68,39.3,85,There are signs of pneumonia on the chest X-ray.,1,1,0,0,0,0,False,True,False
+P0315,1,68,38.2,89,There are reports of loss of taste and smell.,1,1,0,0,0,0,True,False,False
+P0316,1,68,39.2,86,There is a loss of smell and breathing difficulty.,1,1,0,0,0,0,False,True,False
+P0317,1,70,38.5,89,There are symptoms that suggest a COVID-19 infection.,1,0,0,0,0,0,True,False,False
+P0318,1,60,38.9,87,The presence of chest pain and a lack of breath is indicative of pneumonia.,0,0,0,0,0,1,False,True,False
+P0319,0,57,39.0,86,Loss of smell and chest pain is a sign of pneumonia.,1,1,0,0,1,0,False,True,False
+P0320,1,45,38.1,89,The patient had dry cough.,1,0,0,0,0,0,True,False,False
+P0321,1,67,38.3,90,A confirmed COVID-19 case of mild tiredness was observed.,1,0,0,1,0,0,True,False,False
+P0322,0,58,38.4,90,There are reports of a loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P0323,0,68,39.3,85,There are signs of pneumonia in the chest X-ray.,1,1,0,0,0,0,False,True,False
+P0324,1,68,38.2,90,There are reports of a loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P0325,1,68,38.4,89,There are reports of sore throat and loss of smell.,1,0,0,0,0,0,True,False,False
+P0326,1,62,39.2,87,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0327,0,70,39.4,85,The patient has a consistent case of pneumonia.,0,1,0,0,0,1,False,True,False
+P0328,1,59,38.3,89,There was a loss of smell in the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0329,1,56,39.0,88,The presence of chest pain is indicative of pneumonia.,1,1,0,0,1,0,False,True,False
+P0330,0,38,36.6,97,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0331,1,68,38.1,89,There was a confirmed COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0332,0,42,38.1,90,There are reports of fatigue and a loss of smell.,1,0,0,1,0,0,True,False,False
+P0333,0,29,36.6,97,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0334,1,34,36.8,96,No abnormal symptoms have been reported by the patient.,0,0,0,0,0,0,False,False,True
+P0335,0,55,38.4,89,It is suspected that it is due to tiredness and fatigue.,1,0,0,1,0,0,True,False,False
+P0336,0,43,36.6,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0337,1,55,38.2,89,It is suspected that it is due to loss of smell and fatigue.,0,0,0,0,1,0,True,False,False
+P0338,1,35,36.7,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0339,1,70,39.1,84,The presence of sore throat and chest pain is indicative of pneumonia.,0,1,0,0,0,0,False,True,False
+P0340,1,54,39.1,86,The patient has a cough and fatigue.,0,1,0,0,0,0,False,True,False
+P0341,1,60,38.9,87,There are signs of pneumonia in the chest X-ray.,0,0,0,0,0,1,False,True,False
+P0342,0,49,36.5,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0343,0,44,36.5,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0344,1,64,38.4,90,There are symptoms of a COVID-19 infection.,1,0,0,0,0,0,True,False,False
+P0345,1,46,38.2,91,The patient had a loss of taste.,1,1,0,0,0,0,True,False,False
+P0346,1,62,39.2,85,Loss of taste and chest pain are signs of pneumonia.,0,1,0,0,1,0,False,True,False
+P0347,1,38,36.6,99,All test results were normal.,0,0,0,0,0,0,False,False,True
+P0348,1,70,38.5,89,The patient had trouble breathing and was positive for Covid-19.,1,0,0,0,0,0,True,False,False
+P0349,0,42,38.1,90,It's suspected that it's due to illness and fatigue.,1,1,0,0,0,0,True,False,False
+P0350,1,68,39.2,86,The patient has fatigue and a cough.,1,1,0,0,0,0,False,True,False
+P0351,0,46,36.7,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0352,0,52,38.1,91,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,0,0,1,0,0,True,False,False
+P0353,0,63,38.4,90,There are reports of a loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P0354,0,59,38.3,90,It is suspected that it is due to tiredness and fatigue.,1,1,0,0,0,0,True,False,False
+P0355,0,61,39.2,85,There are signs of pneumonia in the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0356,1,70,38.9,86,Findings show that there is breathing difficulty.,0,1,0,0,1,0,False,True,False
+P0357,1,45,38.1,89,There have been reports of loss of taste and smell.,1,0,0,0,0,0,True,False,False
+P0358,0,57,39.0,86,There are signs of pneumonia in the chest X-ray.,1,1,0,0,1,0,False,True,False
+P0359,0,60,38.8,86,The patient is suffering from sore throat.,0,1,0,0,1,0,False,True,False
+P0360,1,68,39.2,86,The patient has a sore throat and cough.,1,1,0,0,0,0,False,True,False
+P0361,1,45,38.5,89,The patient had a sore throat.,1,0,0,0,1,0,True,False,False
+P0362,1,49,36.7,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0363,0,48,36.6,95,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0364,0,40,36.5,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0365,1,42,36.5,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0366,0,66,39.2,86,Loss of taste and chest pain are signs of pneumonia.,1,1,0,0,1,0,False,True,False
+P0367,0,60,38.9,86,A patient has a cough and a dry cough.,0,1,0,0,0,1,False,True,False
+P0368,1,46,36.5,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0369,0,54,39.2,86,The patient has a loss of smell that is consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P0370,0,65,38.4,90,There are reports of chest pain and loss of smell/taste.,1,0,0,1,0,0,True,False,False
+P0371,1,72,39.4,84,The patient has chest pain consistent with pneumonia.,1,1,0,0,0,1,False,True,False
+P0372,1,39,36.6,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0373,0,43,36.5,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0374,1,33,37.9,91,The symptoms include a lack of breath.,1,0,0,0,0,0,True,False,False
+P0375,1,44,38.0,90,The patient had a loss of taste.,1,0,0,0,0,0,True,False,False
+P0376,0,68,39.3,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0377,1,54,39.1,85,A patient has a cough and a dry cough.,0,1,0,0,0,0,False,True,False
+P0378,1,59,38.5,89,Symptoms include dry cough.,0,0,0,0,1,0,True,False,False
+P0379,1,60,39.0,85,The patient has a dry cough that is consistent with pneumonia.,0,1,0,0,0,1,False,True,False
+P0380,0,59,39.0,86,The patient has a cough and a dry cough.,0,1,0,0,0,0,False,True,False
+P0381,1,37,36.5,99,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0382,1,52,39.0,87,Findings show that there are breathing difficulties.,1,1,0,0,1,0,False,True,False
+P0383,0,41,36.6,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0384,1,38,36.7,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0385,1,50,36.7,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0386,1,65,38.2,91,There are reports of a loss of smell and taste.,1,1,0,0,0,0,True,False,False
+P0387,1,45,36.7,97,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0388,0,42,36.7,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0389,1,55,38.2,89,It is suspected to be due to fatigue.,0,0,0,0,1,0,True,False,False
+P0390,0,47,38.8,86,The patient has sore throat that is consistent with pneumonia.,1,0,0,0,0,1,False,True,False
+P0391,0,45,38.4,89,The COVID-19 case was confirmed with a mild dry cough.,1,0,0,0,0,0,True,False,False
+P0392,0,50,39.2,85,The patient has a cough and a fever.,0,0,0,0,0,1,False,True,False
+P0393,1,47,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0394,1,58,39.2,86,Dry cough and breathing difficulty were found.,0,1,0,0,1,0,False,True,False
+P0395,0,40,36.6,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0396,1,49,38.1,91,Loss of smell and fatigue is suspected.,1,0,0,0,0,0,True,False,False
+P0397,1,49,38.2,91,A patient had chest pain.,1,0,0,0,0,0,True,False,False
+P0398,1,35,36.6,97,There was no treatment required.,0,0,0,0,0,0,False,False,True
+P0399,1,61,38.9,88,There are signs of pneumonia in the chest X-ray.,1,1,0,0,0,0,False,True,False
+P0400,1,56,39.0,88,The patient has a cough and a dry cough.,1,1,0,0,1,0,False,True,False
+P0401,1,35,36.5,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0402,0,36,36.6,97,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0403,1,51,38.0,90,There have been reports of dry cough and loss of smell.,1,0,0,1,0,0,True,False,False
+P0404,1,56,39.0,88,Findings show that there are breathing difficulties.,1,1,0,0,1,0,False,True,False
+P0405,0,46,38.0,89,There have been reports of loss of smell and taste.,1,1,0,0,0,0,True,False,False
+P0406,1,35,36.6,97,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0407,0,46,36.7,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0408,0,67,39.2,86,Loss of taste and chest pain are signs of pneumonia.,0,1,0,0,0,1,False,True,False
+P0409,1,47,36.5,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0410,0,66,38.3,90,There have been reports of sore throat and loss of smell.,1,0,0,0,0,0,True,False,False
+P0411,0,48,38.1,91,It is suspected of being due to dry cough and fatigue.,1,1,0,0,0,0,True,False,False
+P0412,0,37,36.6,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0413,0,36,36.6,97,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0414,1,40,36.5,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0415,1,47,38.4,90,The symptoms include chest pain.,1,0,0,0,0,0,True,False,False
+P0416,0,53,38.3,90,Symptoms include chest pain.,1,0,0,1,0,0,True,False,False
+P0417,1,63,39.3,85,The patient is suffering from fatigue.,0,1,0,0,0,1,False,True,False
+P0418,0,57,39.0,86,The findings show sore throat and breathing difficulties.,1,1,0,0,1,0,False,True,False
+P0419,0,40,38.1,89,The patient was positive for Covid-19.,1,0,0,0,0,0,True,False,False
+P0420,0,61,39.2,86,The presence of chest pain is indicative of pneumonia.,1,0,0,0,0,0,False,True,False
+P0421,0,44,38.0,90,COVID-19 is suspected of being due to fatigue.,1,0,0,1,0,0,True,False,False
+P0422,1,35,36.5,97,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0423,1,32,36.6,97,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0424,0,41,36.5,99,No treatment was required.,0,0,0,0,0,0,False,False,True
+P0425,1,58,39.2,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0426,0,47,39.0,86,There is loss of taste and breathing difficulty.,1,0,0,0,0,0,False,True,False
+P0427,0,62,38.3,90,There are reports of loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P0428,0,36,36.7,99,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0429,0,33,36.7,97,No abnormal symptoms were reported by the patient.,0,0,0,0,0,0,False,False,True
+P0430,0,61,39.3,86,Findings show chest pain and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P0431,0,42,36.7,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0432,0,41,36.5,99,The patient appears healthy.,0,0,0,0,0,0,False,False,True
+P0433,1,59,38.3,89,The COVID-19 case had a loss of smell.,1,0,0,0,0,0,True,False,False
+P0434,0,34,36.6,99,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0435,1,66,39.1,85,Findings show that there is breathing difficulty.,0,0,0,0,0,1,False,True,False
+P0436,1,35,36.5,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0437,0,45,36.5,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0438,0,46,38.0,89,The symptoms include fatigue.,1,1,0,0,0,0,True,False,False
+P0439,0,43,36.6,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0440,1,63,38.7,85,There is a loss of smell and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P0441,0,40,38.1,89,The symptoms include dry cough.,1,0,0,0,0,0,True,False,False
+P0442,0,49,36.5,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0443,1,53,36.5,97,No health issues were identified.,0,0,0,0,0,0,False,False,True
+P0444,0,70,39.4,85,The patient has a loss of smell.,0,1,0,0,0,1,False,True,False
+P0445,0,64,39.1,85,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,0,False,True,False
+P0446,1,46,38.1,91,Symptoms include a sore throat.,1,1,0,0,0,0,True,False,False
+P0447,1,47,36.5,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0448,0,45,38.4,89,The patient had trouble breathing and was positive for Covid-19.,1,0,0,0,0,0,True,False,False
+P0449,1,70,39.3,84,The patient has a dry cough that is consistent with pneumonia.,0,1,0,0,0,1,False,True,False
+P0450,0,56,39.2,86,The patient has a dry cough.,0,1,0,0,1,0,False,True,False
+P0451,0,54,39.2,86,The patient is suffering from loss of taste.,0,1,0,0,1,0,False,True,False
+P0452,0,60,38.9,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,1,False,True,False
+P0453,1,64,38.1,91,There have been reports of sore throat and loss of smell.,1,0,0,0,0,0,True,False,False
+P0454,0,40,36.6,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0455,1,40,36.7,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0456,0,60,38.8,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0457,1,69,39.1,85,Findings show that there is chest pain.,0,1,0,0,0,0,False,True,False
+P0458,1,37,36.7,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0459,1,68,38.4,89,There are reports of chest pain and loss of smell/taste.,1,0,0,0,0,0,True,False,False
+P0460,1,38,38.3,92,It is suspected to be due to fatigue.,1,0,0,0,0,0,True,False,False
+P0461,1,70,39.1,84,The patient has a cough.,0,1,0,0,0,0,False,True,False
+P0462,1,49,38.1,91,There have been reports of sore throat and loss of smell.,1,0,0,0,0,0,True,False,False
+P0463,1,65,39.2,85,The presence of fatigue and chest pain is a sign of pneumonia.,0,1,0,0,0,1,False,True,False
+P0464,0,47,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0465,0,62,38.3,90,Symptoms include a sore throat.,1,0,0,1,0,0,True,False,False
+P0466,1,62,38.3,90,There are reports of chest pain and loss of smell.,1,0,0,1,0,0,True,False,False
+P0467,1,35,36.6,97,There was no treatment required.,0,0,0,0,0,0,False,False,True
+P0468,1,48,39.1,85,There are signs of pneumonia in the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0469,1,55,39.1,87,The patient has fatigue consistent with pneumonia.,1,1,0,0,0,0,False,True,False
+P0470,0,55,39.0,86,The patient has a cough and chest pain.,0,0,0,0,0,1,False,True,False
+P0471,1,37,36.5,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0472,0,43,38.2,91,The patient was positive for Covid-19.,1,0,0,1,0,0,True,False,False
+P0473,0,28,36.7,97,There was no treatment required.,0,0,0,0,0,0,False,False,True
+P0474,1,71,39.0,84,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0475,0,40,36.5,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0476,0,66,38.3,90,There are reports of loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P0477,1,71,39.0,84,The patient has fatigue consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P0478,0,44,36.5,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0479,0,59,39.0,86,The findings show dry cough and breathing difficulties.,0,1,0,0,0,0,False,True,False
+P0480,1,46,38.0,92,A patient had a loss of smell.,1,0,0,0,0,0,True,False,False
+P0481,0,48,38.1,91,Symptoms include chest pain.,1,1,0,0,0,0,True,False,False
+P0482,0,33,36.6,97,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0483,1,35,36.6,97,The patient appears healthy.,0,0,0,0,0,0,False,False,True
+P0484,0,44,36.5,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0485,1,55,39.0,86,Findings show that there are breathing difficulties.,1,1,0,0,0,0,False,True,False
+P0486,0,69,38.3,90,The symptoms include a sore throat.,1,0,0,1,0,0,True,False,False
+P0487,1,50,36.7,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0488,1,65,39.0,85,The patient has fatigue and a cough.,0,1,0,0,0,1,False,True,False
+P0489,1,59,39.0,86,The patient has sore throat that is consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P0490,1,70,38.3,89,There are symptoms that suggest a COVID-19 infection.,1,1,0,0,0,0,True,False,False
+P0491,0,49,36.5,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0492,1,59,38.5,89,The symptoms include a lack of breath.,0,0,0,0,1,0,True,False,False
+P0493,1,48,38.2,90,There have been reports of dry cough and loss of smell.,1,0,0,1,0,0,True,False,False
+P0494,0,49,38.1,91,Symptoms include a sore throat.,1,0,0,1,0,0,True,False,False
+P0495,0,49,38.1,91,There are reports of loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P0496,1,38,36.7,99,No health issues were identified.,0,1,0,0,0,0,False,False,True
+P0497,0,38,36.6,97,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0498,0,39,36.7,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0499,0,52,38.2,91,The patient had trouble breathing and tested positive for Covid-19.,1,1,0,0,0,0,True,False,False
+P0500,1,64,39.3,84,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,1,False,True,False
+P0501,1,56,38.4,89,There have been reports of loss of smell and taste.,1,0,0,0,1,0,True,False,False
+P0502,0,64,38.5,89,There was a confirmed COVID-19 case of mild shortness of breath.,0,0,0,0,0,0,True,False,False
+P0503,1,46,36.6,97,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0504,1,48,39.1,86,The patient has fatigue and a cough.,0,1,0,0,0,0,False,True,False
+P0505,1,49,38.2,91,Symptoms include chest pain.,1,0,0,0,0,0,True,False,False
+P0506,0,48,39.2,86,A patient has a loss of taste and cough.,0,1,0,0,0,0,False,True,False
+P0507,0,39,36.7,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0508,0,58,39.3,85,The patient is suffering from loss of taste.,1,0,0,0,1,0,False,True,False
+P0509,0,32,36.5,97,No health issues were identified.,0,0,0,0,0,0,False,False,True
+P0510,0,47,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0511,0,58,38.6,85,There is a loss of taste and breathing difficulty.,1,1,0,0,1,0,False,True,False
+P0512,0,33,36.5,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0513,0,63,39.0,86,The patient has chest pain that is consistent with pneumonia.,0,1,0,0,0,0,False,True,False
+P0514,0,43,36.5,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0515,0,40,36.6,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0516,0,58,38.6,85,The patient is suffering from a lung disease.,1,1,0,0,1,0,False,True,False
+P0517,0,55,39.1,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0518,1,54,38.2,90,There was a loss of taste in the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0519,0,40,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0520,0,47,36.7,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0521,0,53,38.1,90,The fatigue was confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0522,1,68,38.4,89,The patient had a loss of smell.,1,0,0,0,0,0,True,False,False
+P0523,0,34,36.7,97,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0524,0,47,39.0,86,There are signs of pneumonia in the chest X-ray.,1,0,0,0,0,0,False,True,False
+P0525,1,63,39.3,86,The patient is suffering from a respiratory problem.,0,1,0,0,0,0,False,True,False
+P0526,1,46,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0527,0,48,39.2,86,Findings show that there are breathing difficulties.,0,1,0,0,0,0,False,True,False
+P0528,0,43,38.2,91,The fatigue was confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0529,0,56,38.8,85,There is loss of taste and breathing difficulty.,1,0,0,0,0,0,False,True,False
+P0530,1,37,36.7,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0531,0,60,38.8,86,The patient has a cough and fatigue.,0,1,0,0,1,0,False,True,False
+P0532,0,41,36.5,99,All test results were normal.,0,0,0,0,0,0,False,False,True
+P0533,1,48,39.0,87,The patient has a loss of taste and cough.,1,0,0,0,0,1,False,True,False
+P0534,0,63,39.3,87,There are signs of pneumonia in the chest X-ray.,1,1,0,0,0,0,False,True,False
+P0535,0,37,36.6,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0536,0,59,38.2,90,There are symptoms that may be related to COVID-19 infection.,1,0,0,1,0,0,True,False,False
+P0537,0,36,36.7,99,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0538,0,62,38.1,90,The patient had a loss of taste.,1,0,0,0,0,0,True,False,False
+P0539,0,60,39.2,86,The patient has a cough and fatigue.,1,1,0,0,0,0,False,True,False
+P0540,0,57,39.0,86,The presence of fatigue and chest pain is a sign of pneumonia.,1,1,0,0,1,0,False,True,False
+P0541,0,67,39.2,86,There is a presence of dry cough and chest pain.,0,1,0,0,0,1,False,True,False
+P0542,1,42,36.5,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0543,0,57,39.0,86,The patient has fatigue and a cough.,1,1,0,0,1,0,False,True,False
+P0544,0,37,36.6,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0545,1,50,38.3,91,There was a confirmed COVID-19 case.,1,1,0,0,0,0,True,False,False
+P0546,0,41,36.8,97,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0547,1,64,38.2,91,There was a confirmed COVID-19 case of mild chest pain.,1,0,0,1,0,0,True,False,False
+P0548,1,70,38.2,91,There was a confirmed COVID-19 case.,1,1,0,0,0,0,True,False,False
+P0549,1,34,36.6,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0550,1,62,38.3,90,There have been reports of sore throat and loss of smell.,1,0,0,1,0,0,True,False,False
+P0551,1,52,39.0,87,There is loss of taste and breathing difficulty.,1,1,0,0,1,0,False,True,False
+P0552,0,55,39.0,86,The patient has a loss of taste.,0,0,0,0,0,1,False,True,False
+P0553,0,68,39.3,85,The presence of fatigue and chest pain is indicative of pneumonia.,0,1,0,0,1,0,False,True,False
+P0554,1,46,38.1,91,There are reports of loss of smell and taste.,1,1,0,0,0,0,True,False,False
+P0555,0,55,39.0,86,The presence of chest pain and a lack of breath is indicative of pneumonia.,0,0,0,0,0,1,False,True,False
+P0556,1,46,38.2,91,Loss of smell and fatigue is suspected.,1,1,0,0,0,0,True,False,False
+P0557,0,56,39.1,86,Dry cough and breathing difficulty were found.,0,1,0,0,1,0,False,True,False
+P0558,1,68,38.2,89,There was a loss of taste in the COVID-19 case.,1,1,0,0,0,0,True,False,False
+P0559,1,50,36.7,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0560,1,35,36.5,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0561,0,64,38.5,89,There have been reports of loss of taste and smell.,0,0,0,0,0,0,True,False,False
+P0562,1,50,36.7,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0563,1,54,36.5,97,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0564,1,40,36.7,97,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0565,0,48,39.2,86,The patient has a sore throat and cough.,0,1,0,0,0,0,False,True,False
+P0566,1,35,36.5,97,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0567,0,29,36.5,97,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0568,0,61,39.1,85,The patient is suffering from fatigue.,1,1,0,0,0,0,False,True,False
+P0569,0,65,38.9,85,The patient has a loss of taste and cough.,1,0,0,0,1,0,False,True,False
+P0570,0,66,39.2,86,Findings show that there are breathing difficulties.,1,1,0,0,1,0,False,True,False
+P0571,1,34,36.6,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0572,1,40,36.7,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0573,1,63,39.2,85,Findings show sore throat and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P0574,1,66,39.0,85,The patient has a dry cough that is consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P0575,1,67,38.3,90,A patient had chest pain.,1,0,0,1,0,0,True,False,False
+P0576,1,38,38.3,92,The fatigue was confirmed by the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0577,1,66,39.0,86,Findings show chest pain and breathing difficulties.,0,1,0,0,0,0,False,True,False
+P0578,0,44,36.5,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0579,1,46,36.6,97,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0580,1,55,38.2,89,There have been reports of loss of taste and smell.,0,0,0,0,1,0,True,False,False
+P0581,1,39,36.6,97,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0582,1,48,39.0,87,The patient has a cough.,1,0,0,0,0,1,False,True,False
+P0583,0,40,36.5,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0584,1,60,38.4,89,The symptoms include fatigue.,1,0,0,0,0,0,True,False,False
+P0585,1,68,39.1,88,The patient has a cough and a short breath.,1,0,0,0,0,1,False,True,False
+P0586,0,47,36.6,97,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0587,0,30,36.6,96,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0588,0,60,38.9,86,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,1,False,True,False
+P0589,0,65,38.1,91,It is suspected to be due to fatigue.,1,0,0,1,0,0,True,False,False
+P0590,1,61,38.9,88,"The patient has a high temperature, consistent with pneumonia.",1,1,0,0,0,0,False,True,False
+P0591,1,51,36.5,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0592,1,49,36.7,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0593,0,63,38.4,90,There have been reports of loss of taste and smell.,1,0,0,0,0,0,True,False,False
+P0594,1,63,39.2,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0595,0,63,39.0,86,The patient has chest pain that is consistent with pneumonia.,0,1,0,0,0,0,False,True,False
+P0596,1,59,39.0,86,A patient has a cough and chest pain.,1,1,0,0,0,0,False,True,False
+P0597,1,59,38.5,89,There are symptoms that suggest a COVID-19 infection.,0,0,0,0,1,0,True,False,False
+P0598,1,69,39.2,86,The patient has a cough.,0,1,0,0,0,1,False,True,False
+P0599,0,48,38.0,90,A confirmed COVID-19 case was observed.,1,0,0,1,0,0,True,False,False
+P0600,1,65,38.2,91,There are reports of fatigue and a loss of smell.,1,1,0,0,0,0,True,False,False
+P0601,1,54,36.5,97,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0602,0,68,38.4,90,The symptoms include a sore throat.,1,0,0,0,0,0,True,False,False
+P0603,1,62,38.3,90,There are reports of a loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P0604,1,70,39.3,84,The patient is suffering from a lung disease.,0,1,0,0,0,1,False,True,False
+P0605,0,36,38.0,91,It is suspected that it is due to tiredness and fatigue.,1,0,0,0,0,0,True,False,False
+P0606,1,52,39.0,87,The presence of fatigue and chest pain is indicative of pneumonia.,1,1,0,0,1,0,False,True,False
+P0607,0,55,39.1,85,The presence of chest pain and a high temperature is indicative of pneumonia.,0,1,0,0,1,0,False,True,False
+P0608,1,70,39.3,84,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,1,False,True,False
+P0609,0,66,38.4,90,There have been reports of loss of smell and taste.,1,1,0,0,0,0,True,False,False
+P0610,0,42,38.1,90,The patient had a loss of taste.,1,0,0,1,0,0,True,False,False
+P0611,0,43,36.6,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0612,1,70,38.3,89,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0613,0,57,39.0,86,The patient has sore throat that is consistent with pneumonia.,1,1,0,0,1,0,False,True,False
+P0614,0,43,36.6,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0615,0,29,36.5,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0616,0,31,36.6,97,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0617,1,59,38.3,89,The patient had fatigue and tested positive for COVID-19.,1,0,0,0,0,0,True,False,False
+P0618,0,58,38.6,85,Findings show chest pain and breathing difficulties.,1,1,0,0,1,0,False,True,False
+P0619,0,52,38.2,91,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,1,0,0,0,0,True,False,False
+P0620,1,40,36.5,96,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0621,0,40,38.1,89,There was a confirmed COVID-19 case of mild shortness of breath.,1,0,0,0,0,0,True,False,False
+P0622,1,68,38.4,89,The COVID-19 case had a loss of taste.,1,0,0,0,0,0,True,False,False
+P0623,0,47,39.0,86,There is a loss of smell and breathing difficulty.,1,0,0,0,0,0,False,True,False
+P0624,0,59,38.2,90,There are reports of loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P0625,0,70,38.3,90,A patient had a loss of taste.,1,0,0,1,0,0,True,False,False
+P0626,0,32,36.5,97,There was no treatment required.,0,0,0,0,0,0,False,False,True
+P0627,0,65,38.9,85,There are signs of pneumonia in the chest X-ray.,1,0,0,0,1,0,False,True,False
+P0628,1,45,38.5,89,It is suspected that it is due to fatigue.,1,0,0,0,1,0,True,False,False
+P0629,0,56,38.8,85,The patient is suffering from loss of taste.,1,0,0,0,0,0,False,True,False
+P0630,1,60,39.2,85,The patient has a cough.,1,1,0,0,0,1,False,True,False
+P0631,1,53,36.5,97,All test results were normal.,0,0,0,0,0,0,False,False,True
+P0632,1,63,39.3,86,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,0,False,True,False
+P0633,0,56,39.1,86,The patient has a loss of taste.,0,1,0,0,1,0,False,True,False
+P0634,0,29,36.5,99,All test results were normal.,0,0,0,0,0,0,False,False,True
+P0635,1,54,38.2,90,The symptoms include dry cough.,1,0,0,1,0,0,True,False,False
+P0636,1,60,39.0,86,There are signs of pneumonia in the chest X-ray.,1,1,0,0,0,0,False,True,False
+P0637,0,46,36.7,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0638,1,33,36.6,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0639,1,54,39.1,86,The patient has a cough and a short breath.,0,1,0,0,0,0,False,True,False
+P0640,0,59,39.0,86,The presence of fatigue and chest pain is a sign of pneumonia.,0,1,0,0,0,1,False,True,False
+P0641,1,67,39.0,86,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,0,False,True,False
+P0642,1,37,36.5,99,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0643,0,66,39.2,86,Pneumonia is indicated by presence of chest pain and chest pain.,1,1,0,0,1,0,False,True,False
+P0644,0,59,38.3,90,There was a confirmed COVID-19 case.,1,1,0,0,0,0,True,False,False
+P0645,0,41,37.9,90,There are reports of chest pain and loss of smell/taste.,1,0,0,0,0,0,True,False,False
+P0646,1,50,38.3,91,The patient had dry cough.,1,1,0,0,0,0,True,False,False
+P0647,1,45,38.1,90,There was a loss of taste in the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0648,1,35,36.5,97,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0649,1,54,39.1,86,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,0,False,True,False
+P0650,0,57,38.2,90,The symptoms include a sore throat.,1,0,0,1,0,0,True,False,False
+P0651,0,52,39.3,86,Findings show chest pain and breathing difficulties.,0,1,0,0,0,0,False,True,False
+P0652,0,53,38.3,90,Symptoms include a sore throat.,1,0,0,1,0,0,True,False,False
+P0653,1,59,38.5,89,The sore throat is confirmed by the COVID-19 case.,0,0,0,0,1,0,True,False,False
+P0654,1,38,36.7,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0655,0,61,38.3,89,Symptoms include a sore throat.,1,0,0,0,0,0,True,False,False
+P0656,1,40,36.5,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0657,1,52,39.0,87,The patient has a cough and a high temperature.,1,1,0,0,1,0,False,True,False
+P0658,0,47,36.6,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0659,0,45,38.2,91,The COVID-19 case had a loss of smell.,1,0,0,0,0,0,True,False,False
+P0660,1,48,39.0,87,The patient has sore throat that is consistent with pneumonia.,1,0,0,0,0,1,False,True,False
+P0661,0,44,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0662,0,53,38.1,90,There was a loss of smell in the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0663,1,44,38.0,90,Symptoms include a loss of taste.,1,0,0,0,0,0,True,False,False
+P0664,1,57,39.1,86,There is a loss of smell and breathing difficulty.,1,1,0,0,0,0,False,True,False
+P0665,0,42,36.7,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0666,0,48,39.2,86,The findings show that there are breathing difficulties.,0,1,0,0,0,0,False,True,False
+P0667,1,58,39.2,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0668,0,36,36.7,99,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0669,0,28,36.7,97,No abnormal symptoms were reported by the patient.,0,0,0,0,0,0,False,False,True
+P0670,1,40,36.5,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0671,1,47,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0672,1,40,36.7,97,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0673,0,65,38.9,85,Findings show breathing difficulty and a high temperature.,1,0,0,0,1,0,False,True,False
+P0674,0,47,39.0,86,"The patient has a high temperature, consistent with pneumonia.",1,0,0,0,0,0,False,True,False
+P0675,0,60,39.1,87,Findings show fatigue and breathing difficulties.,1,1,0,0,1,0,False,True,False
+P0676,1,42,38.3,90,There was a confirmed COVID-19 case.,1,1,0,0,0,0,True,False,False
+P0677,1,48,39.1,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0678,1,70,38.3,89,The patient had trouble breathing and was positive for Covid-19.,1,0,0,1,0,0,True,False,False
+P0679,1,67,39.0,86,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,0,False,True,False
+P0680,0,36,36.7,99,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0681,1,44,36.7,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0682,1,42,38.3,90,COVID-19 is suspected of being due to fatigue.,1,1,0,0,0,0,True,False,False
+P0683,0,48,36.6,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0684,0,69,39.2,85,The patient has a loss of taste.,0,1,0,0,1,0,False,True,False
+P0685,0,28,36.7,97,There was no treatment required.,0,0,0,0,0,0,False,False,True
+P0686,0,52,38.1,91,Symptoms include chest pain.,1,0,0,1,0,0,True,False,False
+P0687,1,34,36.8,96,No health issues were identified.,0,0,0,0,0,0,False,False,True
+P0688,0,63,39.3,87,The patient has a cough and fatigue.,1,1,0,0,0,0,False,True,False
+P0689,1,62,39.2,85,There is sore throat and chest pain.,0,1,0,0,1,0,False,True,False
+P0690,0,52,38.2,91,Symptoms include chest pain.,1,1,0,0,0,0,True,False,False
+P0691,1,39,36.6,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0692,1,35,36.5,97,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0693,1,44,36.4,96,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0694,1,68,38.2,89,The patient had a loss of smell.,1,1,0,0,0,0,True,False,False
+P0695,1,59,38.5,89,The sore throat is confirmed by the COVID-19 case.,0,0,0,0,1,0,True,False,False
+P0696,0,62,38.1,90,There have been reports of loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P0697,1,37,36.5,99,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0698,0,36,36.7,99,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0699,0,40,36.6,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0700,0,58,38.8,85,Findings show fatigue and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P0701,1,51,36.5,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0702,1,59,38.3,89,There was a confirmed COVID-19 case of mild chest pain.,1,0,0,0,0,0,True,False,False
+P0703,0,44,36.5,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0704,1,38,36.7,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0705,0,48,39.2,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,0,False,True,False
+P0706,1,59,38.5,89,The patient had dry cough.,0,0,0,0,1,0,True,False,False
+P0707,0,56,38.8,85,The patient has a cough and fatigue.,1,0,0,0,0,0,False,True,False
+P0708,1,44,36.4,96,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0709,0,69,38.3,90,The patient had chest pain.,1,0,0,1,0,0,True,False,False
+P0710,0,50,38.3,91,The patient had fatigue and was positive for COVID-19.,1,0,0,0,1,0,True,False,False
+P0711,0,50,39.2,85,The findings show fatigue and breathing difficulties.,0,0,0,0,0,1,False,True,False
+P0712,1,65,38.2,91,There was a confirmed COVID-19 case.,1,1,0,0,0,0,True,False,False
+P0713,0,52,39.3,86,Dry cough and chest pain are signs of pneumonia.,0,1,0,0,0,0,False,True,False
+P0714,0,33,36.7,97,No abnormal symptoms have been reported by the patient.,0,0,0,0,0,0,False,False,True
+P0715,0,43,36.6,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0716,1,48,39.1,86,The patient has a cough and a short breath.,0,1,0,0,0,0,False,True,False
+P0717,0,32,36.7,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0718,1,54,38.4,89,A patient had a loss of smell.,1,0,0,1,0,0,True,False,False
+P0719,0,34,36.6,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0720,1,44,36.7,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0721,0,36,36.7,99,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0722,1,60,39.0,85,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,1,False,True,False
+P0723,0,60,39.2,86,The patient has a sore throat and cough.,1,1,0,0,0,0,False,True,False
+P0724,1,63,38.3,89,There are reports of loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P0725,1,66,38.4,90,There was a confirmed COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0726,0,37,36.6,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0727,1,37,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0728,1,37,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0729,1,55,39.1,86,The patient has a cough and fatigue.,0,1,0,0,0,0,False,True,False
+P0730,1,64,39.3,84,The patient has a loss of smell.,0,1,0,0,0,1,False,True,False
+P0731,1,48,39.1,85,The patient is suffering from loss of taste.,0,1,0,0,1,0,False,True,False
+P0732,1,59,38.5,89,There was a confirmed COVID-19 case.,0,0,0,0,1,0,True,False,False
+P0733,1,55,39.0,86,There are signs of pneumonia on the chest X-ray.,1,1,0,0,0,0,False,True,False
+P0734,1,62,38.4,90,The COVID-19 case had a loss of smell.,1,0,0,0,0,0,True,False,False
+P0735,1,55,38.2,89,There are reports of a loss of smell and taste.,0,0,0,0,1,0,True,False,False
+P0736,1,52,39.0,87,There are signs of pneumonia on the chest X-ray.,1,1,0,0,1,0,False,True,False
+P0737,0,43,36.6,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0738,1,35,36.6,97,No health issues were identified.,0,0,0,0,0,0,False,False,True
+P0739,1,50,36.7,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0740,1,45,36.7,97,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0741,0,41,36.5,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0742,1,51,38.0,90,The COVID-19 case was confirmed with a mild dry cough.,1,0,0,1,0,0,True,False,False
+P0743,1,40,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0744,0,44,38.0,90,The symptoms include chest pain.,1,0,0,1,0,0,True,False,False
+P0745,1,60,38.9,87,A patient has a cough and a dry cough.,0,0,0,0,0,1,False,True,False
+P0746,0,57,38.2,90,A confirmed COVID-19 case was observed.,1,0,0,1,0,0,True,False,False
+P0747,1,40,36.5,96,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0748,1,62,39.2,85,There are signs of pneumonia in the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0749,1,39,36.6,97,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0750,1,60,39.0,85,Loss of smell and chest pain are signs of pneumonia.,0,1,0,0,0,1,False,True,False
+P0751,1,60,39.0,85,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,1,False,True,False
+P0752,1,67,38.2,91,There have been reports of loss of taste and smell.,1,0,0,1,0,0,True,False,False
+P0753,1,65,39.0,85,The patient has a dry cough.,0,1,0,0,0,1,False,True,False
+P0754,0,36,36.5,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0755,0,54,39.2,86,The patient has a cough and a dry cough.,0,1,0,0,1,0,False,True,False
+P0756,0,47,36.7,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0757,1,32,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0758,0,56,39.2,86,The patient has a loss of smell.,0,1,0,0,1,0,False,True,False
+P0759,0,55,39.1,85,The patient has chest pain that is consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P0760,0,44,38.3,91,Symptoms include a sore throat.,1,0,0,0,0,0,True,False,False
+P0761,1,35,36.6,97,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0762,1,35,36.6,97,There is a routine check-up throughout the examination.,0,0,0,0,0,0,False,False,True
+P0763,0,66,39.2,86,The presence of fatigue and chest pain is indicative of pneumonia.,1,1,0,0,1,0,False,True,False
+P0764,1,68,38.4,89,Mild fatigue was confirmed by the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0765,1,45,36.7,97,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0766,1,47,36.5,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0767,1,60,38.9,87,The patient has a loss of smell.,0,0,0,0,0,1,False,True,False
+P0768,1,68,38.1,89,There are reports of sore throat and loss of smell.,1,0,0,0,0,0,True,False,False
+P0769,0,33,36.7,97,No abnormal symptoms were reported by the patient.,0,0,0,0,0,0,False,False,True
+P0770,1,55,38.2,89,It is suspected that it is due to fatigue.,0,0,0,0,1,0,True,False,False
+P0771,1,49,38.1,91,There are reports of a loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P0772,1,64,38.1,91,There are reports of loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P0773,1,70,39.3,84,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,1,False,True,False
+P0774,0,63,38.4,90,Mild fatigue was confirmed by the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0775,1,70,39.3,84,The presence of chest pain and a high temperature is indicative of pneumonia.,0,1,0,0,0,1,False,True,False
+P0776,1,70,38.4,89,There are symptoms that may be related to COVID-19 infection.,1,0,0,1,0,0,True,False,False
+P0777,0,61,39.1,85,The patient has fatigue consistent with pneumonia.,1,1,0,0,0,0,False,True,False
+P0778,1,48,39.1,85,The patient has chest pain consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P0779,1,52,36.6,97,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0780,0,44,38.3,91,There have been reports of loss of taste and smell.,1,0,0,0,0,0,True,False,False
+P0781,0,63,39.3,87,The patient has a cough.,1,1,0,0,0,0,False,True,False
+P0782,1,44,36.4,96,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0783,0,33,36.7,97,The patient appears healthy.,0,0,0,0,0,0,False,False,True
+P0784,1,64,39.3,84,The patient has a loss of smell and cough.,0,1,0,0,0,1,False,True,False
+P0785,1,46,38.2,91,There was a loss of taste in the COVID-19 case.,1,1,0,0,0,0,True,False,False
+P0786,0,53,39.0,86,There is loss of taste and breathing difficulty.,0,0,0,0,0,1,False,True,False
+P0787,1,36,37.8,90,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0788,0,45,38.9,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0789,0,66,38.3,90,The symptoms include fatigue.,1,0,0,0,0,0,True,False,False
+P0790,0,70,38.3,90,The patient had a high temperature and tested positive for Covid-19.,1,0,0,1,0,0,True,False,False
+P0791,0,61,39.0,86,The patient is consistent with pneumonia.,1,1,0,0,0,0,False,True,False
+P0792,1,36,37.8,90,It is suspected to be due to fatigue.,1,0,0,1,0,0,True,False,False
+P0793,0,63,39.3,87,There is a loss of smell and breathing difficulty.,1,1,0,0,0,0,False,True,False
+P0794,0,52,38.1,91,Symptoms include a loss of taste.,1,0,0,1,0,0,True,False,False
+P0795,1,68,38.4,89,The symptoms include fatigue.,1,0,0,0,0,0,True,False,False
+P0796,0,47,39.0,86,"The patient has a high temperature, consistent with pneumonia.",1,0,0,0,0,0,False,True,False
+P0797,0,67,39.2,86,Findings show that there is chest pain.,0,1,0,0,0,1,False,True,False
+P0798,1,32,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0799,0,34,36.7,97,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0800,0,57,38.3,90,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,0,0,1,0,0,True,False,False
+P0801,1,50,36.7,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0802,1,66,39.0,85,The findings show dry cough and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P0803,0,59,39.2,86,The patient is consistent with pneumonia.,0,1,0,0,0,0,False,True,False
+P0804,0,28,36.7,97,The patient appears healthy.,0,0,0,0,0,0,False,False,True
+P0805,1,68,38.2,89,The patient had trouble breathing and tested positive for Covid-19.,1,1,0,0,0,0,True,False,False
+P0806,0,64,38.5,89,The patient had dry cough.,0,0,0,0,0,0,True,False,False
+P0807,0,65,38.4,90,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0808,1,46,38.2,91,The patient had a loss of smell.,1,1,0,0,0,0,True,False,False
+P0809,1,57,39.1,86,The patient has a cough.,1,1,0,0,0,0,False,True,False
+P0810,0,48,38.1,91,The symptoms include fatigue.,1,1,0,0,0,0,True,False,False
+P0811,1,58,39.2,86,The patient has a sore throat and cough.,0,1,0,0,1,0,False,True,False
+P0812,0,66,38.3,90,The patient had chest pain.,1,0,0,0,0,0,True,False,False
+P0813,1,48,39.1,85,The presence of fatigue and chest pain is indicative of pneumonia.,0,1,0,0,1,0,False,True,False
+P0814,1,37,36.5,97,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0815,0,61,38.2,90,The patient had a sore throat.,1,0,0,1,0,0,True,False,False
+P0816,1,72,39.4,84,The patient has a sore throat and cough.,1,1,0,0,0,1,False,True,False
+P0817,1,72,39.1,84,The patient has a dry cough.,1,1,0,0,0,0,False,True,False
+P0818,0,39,36.7,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0819,1,63,38.7,85,There are signs of pneumonia in the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0820,0,52,39.3,86,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,0,False,True,False
+P0821,0,36,36.5,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0822,1,39,36.6,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0823,1,70,39.3,84,A patient has a loss of smell and cough.,0,1,0,0,0,1,False,True,False
+P0824,0,33,36.6,97,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0825,1,63,39.3,86,A patient has a cough and chest pain.,0,1,0,0,0,0,False,True,False
+P0826,0,58,38.4,90,It is suspected of being due to sore throat and fatigue.,1,0,0,1,0,0,True,False,False
+P0827,1,42,38.3,90,There have been reports of sore throat and loss of smell.,1,1,0,0,0,0,True,False,False
+P0828,1,59,38.5,89,The patient had a high temperature and tested positive for Covid-19.,0,0,0,0,1,0,True,False,False
+P0829,0,50,38.3,90,It is suspected that it is due to chest pain and fatigue.,1,0,0,1,0,0,True,False,False
+P0830,0,59,38.3,90,There are symptoms that suggest a COVID-19 infection.,1,1,0,0,0,0,True,False,False
+P0831,0,49,38.3,90,It is suspected that it is due to fatigue.,1,0,0,0,0,0,True,False,False
+P0832,1,53,38.3,89,There was a confirmed COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0833,1,47,38.4,90,The patient had fatigue and tested positive for COVID-19.,1,0,0,0,0,0,True,False,False
+P0834,0,49,38.3,90,There was a confirmed COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0835,1,55,39.1,87,The patient has a cough and chest pain.,1,1,0,0,0,0,False,True,False
+P0836,0,47,39.0,86,The patient has a consistent case of pneumonia.,1,0,0,0,0,0,False,True,False
+P0837,0,67,38.3,89,A patient had chest pain.,1,0,0,1,0,0,True,False,False
+P0838,1,50,38.3,91,It is suspected that it is due to sore throat and fatigue.,1,1,0,0,0,0,True,False,False
+P0839,0,40,36.5,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0840,1,51,36.5,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0841,0,66,38.4,90,It is suspected that it is due to sore throat and fatigue.,1,1,0,0,0,0,True,False,False
+P0842,1,63,38.7,85,There are signs of pneumonia in the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0843,1,69,39.3,85,Findings show chest pain and breathing difficulties.,0,1,0,0,0,0,False,True,False
+P0844,1,70,39.3,84,Findings show chest pain and breathing difficulties.,0,1,0,0,0,1,False,True,False
+P0845,1,64,39.3,84,Loss of taste and chest pain are signs of pneumonia.,0,1,0,0,0,1,False,True,False
+P0846,1,60,39.4,87,The patient has a cough and a short breath.,1,1,0,0,0,0,False,True,False
+P0847,0,70,38.3,90,There was a confirmed COVID-19 case of mild chest pain.,1,0,0,1,0,0,True,False,False
+P0848,0,57,39.0,86,There are signs of pneumonia on the chest X-ray.,1,1,0,0,1,0,False,True,False
+P0849,0,29,36.5,99,No health issues were identified.,0,0,0,0,0,0,False,False,True
+P0850,0,33,36.5,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0851,1,66,39.0,86,There is loss of taste and breathing difficulty.,0,1,0,0,0,0,False,True,False
+P0852,1,45,36.7,97,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0853,0,34,36.6,99,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0854,0,47,36.7,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0855,1,49,36.5,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0856,0,33,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0857,1,68,38.4,89,The COVID-19 case had a loss of smell.,1,0,0,0,0,0,True,False,False
+P0858,0,46,36.7,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0859,1,45,38.1,90,The fatigue was confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0860,0,36,38.0,91,There are reports of a loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P0861,1,36,37.8,90,The fatigue was confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0862,0,50,38.3,90,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,0,0,1,0,0,True,False,False
+P0863,0,65,38.4,90,There have been reports of loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P0864,0,69,38.2,91,Symptoms include a sore throat.,1,0,0,1,0,0,True,False,False
+P0865,0,62,38.3,90,Symptoms include loss of taste.,1,0,0,1,0,0,True,False,False
+P0866,1,37,36.5,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0867,0,42,38.1,90,The patient had a dry cough.,1,1,0,0,0,0,True,False,False
+P0868,1,63,38.3,89,A confirmed COVID-19 case of mild tiredness was observed.,1,0,0,1,0,0,True,False,False
+P0869,1,51,38.0,90,The fatigue was confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0870,0,51,39.1,87,Findings show sore throat and breathing difficulties.,1,0,0,0,1,0,False,True,False
+P0871,0,36,38.0,91,There was a confirmed COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0872,1,50,36.7,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0873,1,48,39.1,86,There are signs of pneumonia with dry cough on the chest X-ray.,0,1,0,0,0,0,False,True,False
+P0874,1,42,38.3,90,There are reports of loss of taste and smell.,1,1,0,0,0,0,True,False,False
+P0875,0,49,38.1,91,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0876,0,48,38.0,90,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,0,0,1,0,0,True,False,False
+P0877,1,54,36.5,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0878,1,46,38.1,91,It is suspected that it is due to loss of taste and fatigue.,1,1,0,0,0,0,True,False,False
+P0879,1,48,39.1,86,There is a loss of smell and breathing difficulty.,0,1,0,0,0,0,False,True,False
+P0880,1,68,39.1,88,The patient has chest pain that is consistent with pneumonia.,1,0,0,0,0,1,False,True,False
+P0881,0,44,38.3,91,A patient had chest pain.,1,0,0,0,0,0,True,False,False
+P0882,1,51,38.0,90,Symptoms include dry cough.,1,0,0,1,0,0,True,False,False
+P0883,1,42,36.5,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0884,1,63,39.2,85,The patient has chest pain consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P0885,0,70,39.4,85,Findings show fatigue and breathing difficulties.,0,1,0,0,0,1,False,True,False
+P0886,1,70,39.3,84,Loss of smell and chest pain is a sign of pneumonia.,0,1,0,0,0,1,False,True,False
+P0887,1,45,38.5,89,It is suspected to be due to fatigue.,1,0,0,0,1,0,True,False,False
+P0888,0,64,38.5,89,There are reports of fatigue and loss of smell.,0,0,0,0,0,0,True,False,False
+P0889,0,47,36.6,97,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0890,1,50,38.3,91,The symptoms include dry cough.,1,1,0,0,0,0,True,False,False
+P0891,1,46,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P0892,0,57,39.0,86,The presence of sore throat and chest pain is indicative of pneumonia.,1,1,0,0,1,0,False,True,False
+P0893,1,69,39.3,85,The patient has chest pain that is consistent with pneumonia.,0,1,0,0,0,0,False,True,False
+P0894,0,61,38.3,89,There are reports of loss of taste and smell.,1,0,0,0,0,0,True,False,False
+P0895,1,32,36.5,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0896,1,47,38.4,90,There was a loss of smell in the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0897,1,72,39.1,84,The patient has a sore throat and cough.,1,1,0,0,0,0,False,True,False
+P0898,0,27,36.4,97,All test results were normal.,0,0,0,0,0,0,False,False,True
+P0899,0,37,36.6,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0900,0,36,36.5,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0901,1,35,36.5,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0902,1,58,39.2,86,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0903,1,41,36.5,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P0904,0,59,38.2,90,There have been reports of dry cough and loss of smell.,1,0,0,1,0,0,True,False,False
+P0905,1,72,39.1,84,The patient has a dry cough.,1,1,0,0,0,0,False,True,False
+P0906,0,61,38.2,91,There are reports of loss of smell and taste.,1,1,0,0,0,0,True,False,False
+P0907,1,57,39.1,86,There are signs of pneumonia on the chest X-ray.,1,1,0,0,0,0,False,True,False
+P0908,1,39,36.6,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0909,0,66,38.3,90,The fatigue was confirmed by the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0910,0,63,39.3,87,The presence of fatigue and chest pain is indicative of pneumonia.,1,1,0,0,0,0,False,True,False
+P0911,1,46,38.2,91,There have been reports of loss of taste and smell.,1,1,0,0,0,0,True,False,False
+P0912,1,35,36.5,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0913,0,61,38.2,90,There have been reports of loss of taste and smell.,1,0,0,1,0,0,True,False,False
+P0914,1,33,36.6,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0915,1,66,39.1,85,Loss of taste and chest pain are signs of pneumonia.,0,0,0,0,0,1,False,True,False
+P0916,0,62,38.1,90,The COVID-19 case had a loss of taste.,1,0,0,0,0,0,True,False,False
+P0917,0,39,36.7,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0918,1,68,39.2,86,A patient has a loss of smell and cough.,1,1,0,0,0,0,False,True,False
+P0919,0,45,38.2,90,There are reports of chest pain and loss of smell.,1,0,0,1,0,0,True,False,False
+P0920,0,47,36.7,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0921,1,37,36.7,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0922,1,40,36.5,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0923,1,44,38.0,90,There was a confirmed COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0924,0,39,36.7,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0925,1,55,39.1,87,Loss of smell and chest pain are signs of pneumonia.,1,1,0,0,0,0,False,True,False
+P0926,0,67,39.2,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,1,False,True,False
+P0927,0,47,38.8,86,The patient has chest pain that is consistent with pneumonia.,1,0,0,0,0,1,False,True,False
+P0928,1,32,36.5,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0929,1,36,37.8,90,The sore throat is confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0930,1,66,38.4,90,There are symptoms that suggest a COVID-19 infection.,1,0,0,0,0,0,True,False,False
+P0931,0,36,36.5,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0932,0,33,36.6,97,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P0933,0,56,39.1,86,There is a loss of smell and breathing difficulty.,0,1,0,0,1,0,False,True,False
+P0934,1,42,38.3,90,There was a confirmed COVID-19 case.,1,1,0,0,0,0,True,False,False
+P0935,0,47,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0936,0,58,39.3,85,There are signs of pneumonia in the chest X-ray.,1,0,0,0,1,0,False,True,False
+P0937,1,51,36.5,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0938,0,42,38.1,90,Symptoms include loss of smell.,1,0,0,1,0,0,True,False,False
+P0939,1,49,36.7,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0940,0,56,38.8,85,The patient is suffering from fatigue.,1,0,0,0,0,0,False,True,False
+P0941,0,31,36.6,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P0942,0,58,38.8,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0943,1,48,39.1,86,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,0,False,True,False
+P0944,0,41,37.9,90,There was a confirmed COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0945,0,61,38.3,89,Symptoms include loss of smell.,1,0,0,0,0,0,True,False,False
+P0946,1,66,39.0,86,Findings show chest pain and breathing difficulties.,0,1,0,0,0,0,False,True,False
+P0947,1,70,38.3,89,It is suspected that it is due to loss of smell and fatigue.,1,0,0,1,0,0,True,False,False
+P0948,1,70,39.1,84,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,0,False,True,False
+P0949,0,41,36.5,99,All test results were normal.,0,0,0,0,0,0,False,False,True
+P0950,1,62,38.3,90,Mild fatigue was confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0951,1,68,38.2,89,There are symptoms that suggest a COVID-19 infection.,1,1,0,0,0,0,True,False,False
+P0952,0,63,39.1,86,There are signs of pneumonia in the chest X-ray.,1,1,0,0,0,0,False,True,False
+P0953,0,56,39.1,86,There is loss of taste and breathing difficulty.,0,1,0,0,1,0,False,True,False
+P0954,1,59,38.5,89,The fatigue was confirmed by the COVID-19 case.,0,0,0,0,1,0,True,False,False
+P0955,1,38,38.3,92,Dry cough and fatigue are suspected.,1,0,0,0,0,0,True,False,False
+P0956,1,33,37.9,91,The patient had a sore throat.,1,0,0,0,0,0,True,False,False
+P0957,0,31,36.6,97,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0958,0,39,36.7,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0959,0,67,39.2,86,The presence of chest pain and a lack of breath is indicative of pneumonia.,0,1,0,0,0,1,False,True,False
+P0960,0,48,36.6,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0961,1,59,39.0,86,The patient has chest pain that is consistent with pneumonia.,1,1,0,0,0,0,False,True,False
+P0962,1,53,36.5,97,No treatment was required.,0,0,0,0,0,0,False,False,True
+P0963,1,37,36.7,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0964,0,50,38.3,90,There have been reports of loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P0965,0,68,39.3,85,The patient has a cough and fatigue.,0,1,0,0,1,0,False,True,False
+P0966,0,46,38.1,91,There was a confirmed COVID-19 case.,1,1,0,0,0,0,True,False,False
+P0967,1,38,38.3,92,Loss of smell is one of the symptoms.,1,0,0,0,0,0,True,False,False
+P0968,1,46,38.0,92,There was a loss of smell in the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P0969,0,47,39.0,86,There is loss of taste and breathing difficulty.,1,0,0,0,0,0,False,True,False
+P0970,0,52,38.2,91,The symptoms include dry cough.,1,1,0,0,0,0,True,False,False
+P0971,1,64,38.2,91,The patient had a high temperature and was positive for COVID-19.,1,0,0,1,0,0,True,False,False
+P0972,0,59,38.2,90,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P0973,1,46,38.2,91,There are reports of dry cough and loss of smell.,1,1,0,0,0,0,True,False,False
+P0974,1,70,39.1,84,The presence of fatigue and chest pain is indicative of pneumonia.,0,1,0,0,0,0,False,True,False
+P0975,0,41,36.5,99,There is a routine check-up throughout the examination.,0,0,0,0,0,0,False,False,True
+P0976,1,32,36.5,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0977,0,53,38.1,90,The symptoms include a sore throat.,1,0,0,1,0,0,True,False,False
+P0978,1,68,39.2,86,Findings show breathing difficulty and a high temperature.,1,1,0,0,0,0,False,True,False
+P0979,0,59,38.2,90,It is suspected that it is due to tiredness and fatigue.,1,0,0,1,0,0,True,False,False
+P0980,1,57,39.1,86,The presence of fatigue and chest pain is a sign of pneumonia.,1,1,0,0,0,0,False,True,False
+P0981,0,29,36.5,99,The patient appears healthy.,0,0,0,0,0,0,False,False,True
+P0982,1,39,36.7,97,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P0983,0,70,39.4,85,The patient has a loss of smell that is consistent with pneumonia.,0,1,0,0,0,1,False,True,False
+P0984,0,58,38.8,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0985,1,47,36.5,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P0986,0,29,36.5,99,All test results were normal.,0,0,0,0,0,0,False,False,True
+P0987,1,33,37.9,91,The patient had trouble breathing and tested positive for Covid-19.,1,0,0,0,0,0,True,False,False
+P0988,1,70,38.9,86,Loss of smell and chest pain are signs of pneumonia.,0,1,0,0,1,0,False,True,False
+P0989,0,52,38.2,91,There are symptoms that suggest a COVID-19 infection.,1,1,0,0,0,0,True,False,False
+P0990,0,56,39.1,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,1,0,False,True,False
+P0991,1,46,36.6,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P0992,0,59,38.3,90,The symptoms include fatigue.,1,1,0,0,0,0,True,False,False
+P0993,0,36,36.7,99,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P0994,1,59,39.0,86,The patient is consistent with pneumonia.,1,1,0,0,0,0,False,True,False
+P0995,0,58,38.6,85,Loss of taste and chest pain are signs of pneumonia.,1,1,0,0,1,0,False,True,False
+P0996,0,40,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P0997,1,43,36.5,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P0998,0,66,38.3,90,A patient had chest pain.,1,0,0,0,0,0,True,False,False
+P0999,0,50,39.2,85,The patient has a sore throat and cough.,0,0,0,0,0,1,False,True,False
+P1000,0,43,36.6,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1001,1,46,38.0,92,There was a confirmed COVID-19 case of mild shortness of breath.,1,0,0,0,0,0,True,False,False
+P1002,0,31,36.6,97,No abnormal symptoms have been reported by the patient.,0,1,0,0,0,0,False,False,True
+P1003,1,55,39.1,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,0,False,True,False
+P1004,1,70,39.1,84,The patient is suffering from sore throat.,0,1,0,0,0,0,False,True,False
+P1005,1,50,39.1,87,The presence of fatigue and chest pain is indicative of pneumonia.,0,1,0,0,1,0,False,True,False
+P1006,1,63,39.3,86,A patient has a cough and chest pain.,0,1,0,0,0,0,False,True,False
+P1007,0,43,36.5,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1008,1,39,36.6,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1009,0,66,38.4,90,There are symptoms that suggest a COVID-19 infection.,1,1,0,0,0,0,True,False,False
+P1010,0,52,39.3,86,The patient has a consistent case of pneumonia.,0,1,0,0,0,0,False,True,False
+P1011,0,33,36.7,97,No abnormal symptoms were reported by the patient.,0,0,0,0,0,0,False,False,True
+P1012,0,61,38.3,89,Mild fatigue was confirmed by the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P1013,0,43,36.6,97,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1014,1,48,39.1,85,The patient has a cough and fatigue.,0,1,0,0,1,0,False,True,False
+P1015,0,58,38.4,90,The patient had fatigue and was positive for COVID-19.,1,0,0,1,0,0,True,False,False
+P1016,1,63,39.3,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,0,False,True,False
+P1017,1,60,39.0,85,The findings show sore throat and breathing difficulties.,0,1,0,0,0,1,False,True,False
+P1018,1,47,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1019,0,66,38.3,90,Symptoms include loss of smell.,1,0,0,0,0,0,True,False,False
+P1020,1,45,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1021,1,54,36.5,97,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1022,1,40,36.5,96,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1023,1,71,39.0,84,The patient has a cough and chest pain.,0,1,0,0,1,0,False,True,False
+P1024,1,54,38.2,90,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1025,0,65,38.4,90,It is suspected that it is due to chest pain and fatigue.,1,0,0,1,0,0,True,False,False
+P1026,0,46,38.0,89,The symptoms include a sore throat.,1,1,0,0,0,0,True,False,False
+P1027,1,68,38.4,89,It's suspected that it's due to loss of taste and fatigue.,1,0,0,0,0,0,True,False,False
+P1028,1,72,39.1,84,There are signs of pneumonia in the chest X-ray.,1,1,0,0,0,0,False,True,False
+P1029,1,62,38.3,90,The COVID-19 case had a loss of taste.,1,0,0,1,0,0,True,False,False
+P1030,0,48,39.2,86,The patient is suffering from sore throat.,0,1,0,0,0,0,False,True,False
+P1031,0,52,38.1,91,The patient had trouble breathing and tested positive for Covid-19.,1,0,0,1,0,0,True,False,False
+P1032,0,65,38.9,85,There are signs of pneumonia in the chest X-ray.,1,0,0,0,1,0,False,True,False
+P1033,1,49,38.2,91,There are symptoms that suggest a COVID-19 infection.,1,0,0,0,0,0,True,False,False
+P1034,1,52,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1035,1,54,38.4,89,There are reports of chest pain and loss of smell.,1,0,0,1,0,0,True,False,False
+P1036,0,68,38.4,90,The sore throat is confirmed by the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P1037,0,58,39.3,85,Dry cough and breathing difficulty were found.,1,0,0,0,1,0,False,True,False
+P1038,1,66,39.0,85,There is loss of taste and breathing difficulty.,0,1,0,0,1,0,False,True,False
+P1039,1,55,39.1,86,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,0,False,True,False
+P1040,1,68,38.4,89,The COVID-19 case had a loss of smell.,1,0,0,0,0,0,True,False,False
+P1041,0,68,39.3,85,There are signs of pneumonia with dry cough on the chest X-ray.,1,1,0,0,0,0,False,True,False
+P1042,1,49,36.7,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1043,0,68,39.2,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P1044,1,40,36.5,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1045,0,28,36.7,97,There was no treatment required.,0,0,0,0,0,0,False,False,True
+P1046,1,39,36.7,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1047,1,38,36.6,99,No abnormal symptoms were reported by the patient.,0,0,0,0,0,0,False,False,True
+P1048,1,70,38.3,89,There was a loss of smell in the COVID-19 case.,1,1,0,0,0,0,True,False,False
+P1049,0,48,38.1,91,The patient was positive for COVID-19.,1,1,0,0,0,0,True,False,False
+P1050,1,58,38.2,90,The patient had a dry cough.,1,1,0,0,0,0,True,False,False
+P1051,0,34,36.7,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1052,1,33,36.6,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1053,0,62,38.3,90,The patient had a sore throat.,1,0,0,1,0,0,True,False,False
+P1054,0,61,38.2,91,The patient was positive for Covid-19.,1,1,0,0,0,0,True,False,False
+P1055,1,66,39.0,86,The patient has a loss of smell and cough.,0,1,0,0,0,0,False,True,False
+P1056,1,37,36.7,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1057,1,38,36.7,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1058,0,49,38.1,91,The symptoms include a lack of breath.,1,0,0,1,0,0,True,False,False
+P1059,0,44,38.3,91,There are reports of chest pain and loss of smell.,1,0,0,0,0,0,True,False,False
+P1060,0,64,38.5,89,There are reports of loss of smell and taste.,0,0,0,0,0,0,True,False,False
+P1061,0,66,38.3,90,There are reports of chest pain and loss of smell/taste.,1,0,0,0,0,0,True,False,False
+P1062,0,66,38.4,90,There are symptoms that suggest a COVID-19 infection.,1,1,0,0,0,0,True,False,False
+P1063,0,67,39.2,86,A patient has a cough and chest pain.,0,1,0,0,0,1,False,True,False
+P1064,0,39,36.7,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1065,0,48,39.1,86,Findings show sore throat and breathing difficulties.,1,1,0,0,0,0,False,True,False
+P1066,1,67,38.3,90,Dry cough and fatigue are suspected.,1,0,0,1,0,0,True,False,False
+P1067,0,45,38.2,90,The COVID-19 case had a loss of smell.,1,0,0,1,0,0,True,False,False
+P1068,1,51,36.5,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1069,1,61,39.0,87,The patient has a cough and fatigue.,0,1,0,0,1,0,False,True,False
+P1070,1,62,38.4,90,There have been reports of loss of taste and smell.,1,0,0,0,0,0,True,False,False
+P1071,0,62,38.3,90,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,0,0,1,0,0,True,False,False
+P1072,0,44,38.0,90,The patient had trouble breathing and was positive for Covid-19.,1,0,0,1,0,0,True,False,False
+P1073,1,41,36.5,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1074,1,46,38.0,92,There have been reports of loss of taste and smell.,1,0,0,0,0,0,True,False,False
+P1075,0,44,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1076,1,44,38.0,90,There was a confirmed COVID-19 case of mild chest pain.,1,0,0,0,0,0,True,False,False
+P1077,0,47,36.6,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1078,1,36,36.7,99,No treatment was required.,0,0,0,0,0,0,False,False,True
+P1079,1,52,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1080,0,66,39.2,86,Loss of smell and chest pain are signs of pneumonia.,1,1,0,0,1,0,False,True,False
+P1081,1,72,39.1,84,The patient has a dry cough that is consistent with pneumonia.,1,1,0,0,0,0,False,True,False
+P1082,1,58,39.2,86,The patient has a loss of smell and cough.,0,1,0,0,1,0,False,True,False
+P1083,1,45,38.1,90,The patient had chest pain.,1,0,0,1,0,0,True,False,False
+P1084,1,49,38.2,91,It is suspected to be due to fatigue.,1,0,0,0,0,0,True,False,False
+P1085,1,67,38.2,91,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1086,1,54,39.1,85,Findings show fatigue and breathing difficulties.,0,1,0,0,0,0,False,True,False
+P1087,1,53,38.3,89,The patient had trouble breathing and was positive for Covid-19.,1,0,0,0,0,0,True,False,False
+P1088,0,59,39.0,86,The patient has a loss of smell that is consistent with pneumonia.,0,1,0,0,0,0,False,True,False
+P1089,0,67,39.2,86,The patient has fatigue and a cough.,0,1,0,0,0,1,False,True,False
+P1090,1,64,38.2,91,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1091,1,70,38.2,91,Mild fatigue was confirmed by the COVID-19 case.,1,1,0,0,0,0,True,False,False
+P1092,0,52,39.3,86,The patient has a cough and chest pain.,0,1,0,0,0,0,False,True,False
+P1093,0,69,39.2,85,The presence of fatigue and chest pain is indicative of pneumonia.,0,1,0,0,1,0,False,True,False
+P1094,1,68,39.2,86,There are signs of pneumonia in the chest X-ray.,1,1,0,0,0,0,False,True,False
+P1095,0,33,36.7,97,The patient appears to be healthy.,0,0,0,0,0,0,False,False,True
+P1096,0,43,38.0,90,It is suspected that it is due to chest pain and fatigue.,1,0,0,1,0,0,True,False,False
+P1097,0,33,36.5,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1098,0,46,36.7,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1099,1,67,39.0,86,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,0,False,True,False
+P1100,1,70,38.3,89,There are reports of loss of taste and smell.,1,1,0,0,0,0,True,False,False
+P1101,0,61,39.2,85,Findings show breathing difficulty and a high temperature.,0,1,0,0,1,0,False,True,False
+P1102,0,50,38.3,90,There are symptoms that suggest a COVID-19 infection.,1,0,0,1,0,0,True,False,False
+P1103,0,49,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1104,0,37,36.6,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1105,0,59,39.0,86,A patient has a loss of smell and cough.,0,1,0,0,0,1,False,True,False
+P1106,0,44,38.3,91,A patient had chest pain.,1,0,0,0,0,0,True,False,False
+P1107,1,68,38.4,89,There have been reports of loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1108,1,47,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1109,1,70,39.3,84,The patient is suffering from sore throat.,0,1,0,0,0,1,False,True,False
+P1110,0,42,36.7,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1111,1,44,36.7,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1112,0,37,36.6,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1113,0,66,39.2,86,There are signs of pneumonia in the chest X-ray.,1,1,0,0,1,0,False,True,False
+P1114,0,60,39.1,87,The patient is suffering from sore throat.,1,1,0,0,1,0,False,True,False
+P1115,0,44,36.7,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1116,1,45,38.1,89,It is suspected of being due to dry cough and fatigue.,1,0,0,0,0,0,True,False,False
+P1117,1,68,39.1,88,The presence of fatigue and chest pain is a sign of pneumonia.,1,0,0,0,0,1,False,True,False
+P1118,1,64,38.1,91,There are reports of loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1119,0,41,36.5,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1120,0,37,36.6,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1121,1,41,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1122,1,64,39.3,84,A patient has a loss of smell and cough.,0,1,0,0,0,1,False,True,False
+P1123,0,32,36.7,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1124,1,49,38.1,91,Loss of smell and fatigue is suspected.,1,0,0,0,0,0,True,False,False
+P1125,0,65,38.1,91,There have been reports of dry cough and loss of smell.,1,0,0,1,0,0,True,False,False
+P1126,1,62,38.3,90,There are symptoms that suggest a COVID-19 infection.,1,0,0,1,0,0,True,False,False
+P1127,1,60,39.4,87,Findings show sore throat and breathing difficulties.,1,1,0,0,0,0,False,True,False
+P1128,0,46,38.1,91,There was a confirmed COVID-19 case.,1,1,0,0,0,0,True,False,False
+P1129,0,49,38.1,91,The patient had fatigue and tested positive for COVID-19.,1,0,0,1,0,0,True,False,False
+P1130,0,52,38.4,89,It is suspected of being due to dry cough and fatigue.,1,0,0,0,0,0,True,False,False
+P1131,0,43,36.6,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1132,1,32,36.6,97,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1133,0,54,39.2,86,The presence of fatigue and chest pain is indicative of pneumonia.,0,1,0,0,1,0,False,True,False
+P1134,0,47,36.7,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1135,0,53,39.0,86,Dry cough and breathing difficulty were found.,0,0,0,0,0,1,False,True,False
+P1136,0,44,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1137,1,60,38.9,87,The patient has a cough and a high temperature.,0,0,0,0,0,1,False,True,False
+P1138,0,61,39.0,86,Loss of taste and chest pain is a sign of pneumonia.,1,1,0,0,0,0,False,True,False
+P1139,0,43,36.6,97,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1140,0,46,36.7,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1141,0,45,38.9,85,The presence of chest pain is indicative of pneumonia.,0,1,0,0,1,0,False,True,False
+P1142,0,40,38.0,90,The patient was positive for COVID-19.,1,0,0,1,0,0,True,False,False
+P1143,1,34,36.6,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1144,1,57,39.2,85,There is a presence of dry cough and chest pain.,0,1,0,0,0,1,False,True,False
+P1145,0,50,38.3,91,The patient had fatigue and was positive for COVID-19.,1,0,0,0,1,0,True,False,False
+P1146,1,41,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1147,1,54,39.1,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,0,False,True,False
+P1148,0,37,36.6,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1149,0,68,39.2,85,The presence of fatigue and chest pain is indicative of pneumonia.,0,1,0,0,1,0,False,True,False
+P1150,0,59,39.0,86,Findings show sore throat and breathing difficulties.,0,1,0,0,0,1,False,True,False
+P1151,1,63,38.7,85,Findings show that there is breathing difficulty.,0,1,0,0,1,0,False,True,False
+P1152,1,64,38.2,91,A patient had a sore throat.,1,0,0,1,0,0,True,False,False
+P1153,1,35,36.6,97,The patient appears healthy.,0,0,0,0,0,0,False,False,True
+P1154,0,48,36.6,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1155,1,32,36.5,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1156,1,45,36.7,97,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1157,0,57,39.0,86,The patient has a loss of smell and cough.,1,1,0,0,1,0,False,True,False
+P1158,0,56,39.1,86,There is loss of taste and breathing difficulty.,0,1,0,0,1,0,False,True,False
+P1159,0,42,36.5,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1160,0,58,38.4,90,There have been reports of dry cough and loss of smell.,1,0,0,1,0,0,True,False,False
+P1161,0,47,39.0,86,A patient has a cough and a dry cough.,1,0,0,0,0,0,False,True,False
+P1162,0,42,38.1,90,It is suspected that it is due to fatigue.,1,0,0,1,0,0,True,False,False
+P1163,1,62,38.4,90,There have been reports of loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1164,1,49,38.2,91,It's suspected that it's due to loss of taste and fatigue.,1,0,0,0,0,0,True,False,False
+P1165,0,44,36.5,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1166,1,51,38.0,90,It's suspected that it's due to loss of taste and fatigue.,1,0,0,1,0,0,True,False,False
+P1167,0,42,38.1,90,The patient had trouble breathing and tested positive for Covid-19.,1,0,0,1,0,0,True,False,False
+P1168,0,59,39.0,86,The patient is suffering from a lung disease.,0,1,0,0,0,0,False,True,False
+P1169,0,53,38.1,90,The COVID-19 case had a loss of smell.,1,0,0,1,0,0,True,False,False
+P1170,0,45,38.2,90,The patient had a high temperature and tested positive for Covid-19.,1,0,0,1,0,0,True,False,False
+P1171,1,58,38.2,90,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,1,0,0,0,0,True,False,False
+P1172,1,69,39.1,85,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,0,False,True,False
+P1173,0,70,38.3,90,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1174,0,36,36.6,97,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1175,1,62,39.2,85,Dry cough and chest pain are signs of pneumonia.,1,1,0,0,0,0,False,True,False
+P1176,1,42,36.5,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1177,0,43,38.0,90,There are symptoms that suggest a COVID-19 infection.,1,0,0,1,0,0,True,False,False
+P1178,0,53,38.3,90,It is suspected of being due to dry cough and fatigue.,1,0,0,1,0,0,True,False,False
+P1179,0,37,36.6,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1180,1,46,38.2,91,The COVID-19 case was confirmed with a mild dry cough.,1,1,0,0,0,0,True,False,False
+P1181,0,63,39.3,87,The patient has fatigue consistent with pneumonia.,1,1,0,0,0,0,False,True,False
+P1182,1,33,36.6,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1183,0,33,36.7,97,The patient appears healthy.,0,0,0,0,0,0,False,False,True
+P1184,1,46,38.0,92,Dry cough and fatigue are suspected.,1,0,0,0,0,0,True,False,False
+P1185,0,41,36.5,99,All test results were normal.,0,0,0,0,0,0,False,False,True
+P1186,0,43,36.5,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1187,1,62,39.2,85,There are signs of pneumonia in the chest X-ray.,1,1,0,0,0,0,False,True,False
+P1188,0,50,38.3,91,The patient had a sore throat.,1,0,0,0,1,0,True,False,False
+P1189,1,68,39.2,86,The findings show dry cough and breathing difficulties.,1,1,0,0,0,0,False,True,False
+P1190,0,55,39.1,85,Findings show fatigue and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P1191,0,43,36.6,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1192,1,47,36.5,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1193,1,37,36.6,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1194,0,48,38.0,90,Symptoms include loss of taste.,1,0,0,1,0,0,True,False,False
+P1195,0,59,39.2,86,The patient has a loss of smell and cough.,0,1,0,0,0,0,False,True,False
+P1196,0,62,38.9,86,There is a presence of dry cough and chest pain.,0,1,0,0,0,0,False,True,False
+P1197,0,45,36.5,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1198,1,33,36.6,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1199,1,62,38.4,90,Symptoms include a sore throat.,1,0,0,0,0,0,True,False,False
+P1200,0,59,39.0,86,Findings show fatigue and breathing difficulties.,0,1,0,0,0,1,False,True,False
+P1201,1,41,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1202,1,43,36.5,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1203,1,50,36.7,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1204,0,55,38.4,89,There are symptoms that suggest a COVID-19 infection.,1,0,0,1,0,0,True,False,False
+P1205,1,44,38.0,90,A confirmed COVID-19 case of mild tiredness was observed.,1,0,0,0,0,0,True,False,False
+P1206,0,49,36.6,98,There was no treatment required.,0,1,0,0,0,0,False,False,True
+P1207,1,72,39.4,84,There are signs of pneumonia with a sore throat on the chest X-ray.,1,1,0,0,0,1,False,True,False
+P1208,1,51,38.0,90,The sore throat was confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1209,1,51,39.0,86,A patient has a cough and a dry cough.,0,0,0,0,0,1,False,True,False
+P1210,0,41,36.5,99,There is a routine check-up and normal findings.,0,0,0,0,0,0,False,False,True
+P1211,0,37,36.6,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1212,1,47,38.4,90,It is suspected that it is due to loss of smell and fatigue.,1,0,0,0,0,0,True,False,False
+P1213,0,36,36.5,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1214,0,34,36.6,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1215,0,42,36.7,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1216,1,69,39.1,85,The patient has a dry cough.,0,1,0,0,0,0,False,True,False
+P1217,1,52,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1218,0,31,36.6,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1219,1,53,38.3,89,It is suspected of being due to chest pain and fatigue.,1,0,0,0,0,0,True,False,False
+P1220,1,60,38.4,89,There are reports of chest pain and loss of smell.,1,0,0,0,0,0,True,False,False
+P1221,0,41,36.5,99,The patient appears to be healthy.,0,0,0,0,0,0,False,False,True
+P1222,1,55,39.1,87,The patient suffers from fatigue.,1,1,0,0,0,0,False,True,False
+P1223,0,27,36.4,97,No health issues were identified.,0,0,0,0,0,0,False,False,True
+P1224,1,40,36.5,96,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1225,0,70,38.3,90,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1226,0,37,36.6,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1227,1,58,39.2,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,1,0,False,True,False
+P1228,0,53,38.3,90,The COVID-19 case had a loss of taste.,1,0,0,1,0,0,True,False,False
+P1229,0,70,38.3,90,There was a loss of taste in the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1230,1,40,36.5,96,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1231,1,49,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1232,1,37,36.5,99,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1233,1,44,36.7,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1234,0,48,38.0,90,The patient had chest pain.,1,0,0,1,0,0,True,False,False
+P1235,1,69,39.3,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,0,False,True,False
+P1236,1,47,36.5,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1237,0,59,38.3,90,There are symptoms that suggest a COVID-19 infection.,1,1,0,0,0,0,True,False,False
+P1238,1,59,39.0,86,Findings show that there is chest pain.,0,1,0,0,1,0,False,True,False
+P1239,0,60,38.9,86,Dry cough and breathing difficulty were found.,0,1,0,0,0,1,False,True,False
+P1240,0,53,38.3,90,There was a loss of taste in the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1241,0,63,39.3,87,The patient has a cough.,1,1,0,0,0,0,False,True,False
+P1242,0,46,36.7,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1243,1,39,36.6,97,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1244,1,62,39.2,85,The patient has a dry cough that is consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P1245,0,39,36.7,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1246,1,46,38.1,91,COVID-19 is suspected of being due to fatigue.,1,1,0,0,0,0,True,False,False
+P1247,1,38,36.6,99,The patient appears healthy.,0,0,0,0,0,0,False,False,True
+P1248,1,47,36.5,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1249,0,64,38.5,89,There are reports of dry cough and loss of smell.,0,0,0,0,0,0,True,False,False
+P1250,1,37,36.6,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1251,0,63,39.3,87,Dry cough and breathing difficulty were found.,1,1,0,0,0,0,False,True,False
+P1252,0,40,38.1,89,There are reports of a loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1253,1,42,38.3,90,It is suspected that it is due to sore throat and fatigue.,1,0,0,0,0,0,True,False,False
+P1254,1,63,39.2,85,The patient has a loss of smell.,0,1,0,0,1,0,False,True,False
+P1255,0,57,38.3,90,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1256,1,45,38.1,90,There are reports of fatigue and a loss of smell.,1,0,0,1,0,0,True,False,False
+P1257,0,70,38.3,90,A patient had a loss of smell.,1,0,0,1,0,0,True,False,False
+P1258,1,58,39.3,85,There are signs of pneumonia on the chest X-ray.,1,1,0,0,0,0,False,True,False
+P1259,1,59,39.0,86,The patient is suffering from a respiratory problem.,0,1,0,0,1,0,False,True,False
+P1260,1,59,39.0,86,The presence of fatigue and chest pain is a sign of pneumonia.,0,1,0,0,1,0,False,True,False
+P1261,1,38,36.7,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1262,1,68,38.2,90,The sore throat is confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1263,1,61,39.0,87,The patient has a cough.,0,1,0,0,1,0,False,True,False
+P1264,0,29,36.5,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1265,0,29,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1266,0,55,39.0,86,The patient is suffering from sore throat.,0,0,0,0,0,1,False,True,False
+P1267,0,70,39.4,85,The patient has a loss of smell and cough.,0,1,0,0,0,1,False,True,False
+P1268,0,30,36.6,96,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1269,0,45,38.2,91,It's suspected that it's due to illness and fatigue.,1,0,0,0,0,0,True,False,False
+P1270,1,69,39.2,86,The patient has chest pain that is consistent with pneumonia.,0,1,0,0,0,1,False,True,False
+P1271,1,71,39.0,84,There is loss of taste and breathing difficulty.,0,1,0,0,1,0,False,True,False
+P1272,1,35,36.5,97,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1273,0,40,38.1,89,There are symptoms that suggest a COVID-19 infection.,1,0,0,0,0,0,True,False,False
+P1274,1,47,38.4,91,Symptoms include dry cough.,1,0,0,0,0,0,True,False,False
+P1275,0,58,39.3,85,Loss of smell and chest pain are signs of pneumonia.,1,0,0,0,1,0,False,True,False
+P1276,0,65,38.9,85,The patient has chest pain consistent with pneumonia.,1,0,0,0,1,0,False,True,False
+P1277,0,61,39.1,85,"The patient has a high temperature, consistent with pneumonia.",1,1,0,0,0,0,False,True,False
+P1278,0,45,38.2,90,The patient had a loss of smell.,1,0,0,1,0,0,True,False,False
+P1279,1,55,38.2,89,There are reports of dry cough and loss of smell.,0,0,0,0,1,0,True,False,False
+P1280,1,60,38.4,89,There are reports of loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1281,1,64,39.3,84,A patient has a loss of smell and cough.,0,1,0,0,0,1,False,True,False
+P1282,0,55,39.1,85,The patient has a cough and a fever.,0,1,0,0,1,0,False,True,False
+P1283,0,46,38.1,91,There are reports of loss of taste and smell.,1,1,0,0,0,0,True,False,False
+P1284,0,63,39.0,86,The patient is suffering from a lung disease.,0,1,0,0,0,0,False,True,False
+P1285,1,34,36.6,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1286,1,71,39.0,84,Pneumonia is indicated by presence of chest pain and chest pain.,0,1,0,0,1,0,False,True,False
+P1287,0,68,38.4,90,It is suspected to be due to fatigue.,1,0,0,0,0,0,True,False,False
+P1288,0,53,38.3,89,The COVID-19 case had a loss of taste.,1,0,0,1,0,0,True,False,False
+P1289,0,61,39.2,85,The patient has chest pain consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P1290,1,55,39.0,86,Loss of smell and chest pain are signs of pneumonia.,1,1,0,0,0,0,False,True,False
+P1291,0,69,39.2,85,The patient suffers from fatigue.,0,1,0,0,1,0,False,True,False
+P1292,1,55,38.2,89,The COVID-19 case had a loss of taste.,0,0,0,0,1,0,True,False,False
+P1293,0,55,39.0,86,The patient has chest pain that is consistent with pneumonia.,0,0,0,0,0,1,False,True,False
+P1294,0,52,39.3,86,The patient has a dry cough that is consistent with pneumonia.,0,1,0,0,0,0,False,True,False
+P1295,1,53,38.3,89,The patient had chest pain.,1,0,0,0,0,0,True,False,False
+P1296,1,60,39.0,85,Loss of smell and chest pain is a sign of pneumonia.,0,1,0,0,0,1,False,True,False
+P1297,0,59,39.0,86,Dry cough and breathing difficulty were found.,0,1,0,0,0,0,False,True,False
+P1298,1,68,38.2,89,Loss of smell is one of the symptoms.,1,1,0,0,0,0,True,False,False
+P1299,1,69,39.1,85,The patient is consistent with pneumonia.,0,1,0,0,0,0,False,True,False
+P1300,1,68,39.2,86,Loss of taste and chest pain is a sign of pneumonia.,1,1,0,0,0,0,False,True,False
+P1301,1,70,38.3,89,It is suspected that it is due to loss of smell and fatigue.,1,0,0,1,0,0,True,False,False
+P1302,0,41,36.8,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1303,0,53,39.0,86,Pneumonia is indicated by presence of chest pain and chest pain.,0,0,0,0,0,1,False,True,False
+P1304,1,68,39.1,88,The presence of fatigue and chest pain is indicative of pneumonia.,1,0,0,0,0,1,False,True,False
+P1305,0,46,38.9,85,The patient has chest pain consistent with pneumonia.,1,0,0,0,1,0,False,True,False
+P1306,0,62,38.1,90,A patient had a loss of smell.,1,0,0,0,0,0,True,False,False
+P1307,1,55,39.1,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,0,False,True,False
+P1308,0,55,38.4,89,There are reports of fatigue and loss of smell.,1,0,0,1,0,0,True,False,False
+P1309,1,46,36.6,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1310,0,44,38.3,91,There was a confirmed COVID-19 case.,1,0,0,0,0,0,True,False,False
+P1311,0,68,39.3,85,There is a presence of dry cough and chest pain.,0,1,0,0,1,0,False,True,False
+P1312,0,50,38.3,90,The fatigue was confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1313,0,31,36.6,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1314,0,69,38.2,91,There are symptoms that suggest a COVID-19 infection.,1,0,0,1,0,0,True,False,False
+P1315,1,66,39.1,85,The patient is consistent with pneumonia.,0,0,0,0,0,1,False,True,False
+P1316,0,55,39.1,85,Findings show breathing difficulty and a high temperature.,0,1,0,0,1,0,False,True,False
+P1317,0,57,38.2,90,Symptoms include chest pain.,1,0,0,1,0,0,True,False,False
+P1318,0,37,36.6,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1319,0,70,38.3,90,A patient had a loss of smell.,1,0,0,1,0,0,True,False,False
+P1320,0,54,39.2,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,1,0,False,True,False
+P1321,1,72,39.1,84,The patient is suffering from sore throat.,1,1,0,0,0,0,False,True,False
+P1322,0,58,39.3,85,There are signs of pneumonia with a sore throat on the chest X-ray.,1,0,0,0,1,0,False,True,False
+P1323,1,35,36.7,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1324,0,61,39.2,85,The findings show fatigue and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P1325,1,62,39.2,85,The presence of chest pain is indicative of pneumonia.,0,1,0,0,1,0,False,True,False
+P1326,0,46,38.0,89,It is suspected that it is due to fatigue.,1,1,0,0,0,0,True,False,False
+P1327,1,65,39.0,85,The presence of chest pain and a lack of breath is indicative of pneumonia.,0,1,0,0,0,1,False,True,False
+P1328,0,68,39.3,85,The patient has a cough and a short breath.,1,1,0,0,0,0,False,True,False
+P1329,1,44,38.0,90,The patient had trouble breathing and was positive for Covid-19.,1,0,0,0,0,0,True,False,False
+P1330,0,50,38.3,91,There was a confirmed COVID-19 case of mild chest pain.,1,0,0,0,1,0,True,False,False
+P1331,1,66,39.0,85,Findings show that there are breathing difficulties.,0,1,0,0,1,0,False,True,False
+P1332,1,50,36.7,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1333,0,39,36.6,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1334,1,38,38.3,92,There was a loss of smell in the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P1335,0,57,38.3,90,The symptoms include fatigue.,1,0,0,1,0,0,True,False,False
+P1336,0,36,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1337,1,44,36.7,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1338,1,35,36.5,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1339,1,59,39.0,86,Loss of taste and chest pain are signs of pneumonia.,0,1,0,0,1,0,False,True,False
+P1340,0,36,36.7,99,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1341,0,70,38.3,90,There are reports of loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P1342,1,63,39.3,85,The presence of fatigue and chest pain is indicative of pneumonia.,0,1,0,0,0,1,False,True,False
+P1343,1,72,39.4,84,There are signs of pneumonia in the chest X-ray.,1,1,0,0,0,1,False,True,False
+P1344,0,41,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1345,0,39,36.7,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1346,0,45,38.4,89,A patient had a loss of taste.,1,0,0,0,0,0,True,False,False
+P1347,0,62,38.3,90,The symptoms include dry cough.,1,0,0,1,0,0,True,False,False
+P1348,0,63,38.4,90,Symptoms include loss of smell.,1,0,0,0,0,0,True,False,False
+P1349,1,57,38.4,90,A patient had chest pain.,1,0,0,0,0,0,True,False,False
+P1350,1,49,36.7,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1351,0,41,37.9,90,There are reports of fatigue and a loss of smell.,1,0,0,0,0,0,True,False,False
+P1352,1,49,36.5,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1353,1,60,39.3,85,There is a loss of taste and breathing difficulty.,0,1,0,0,0,1,False,True,False
+P1354,1,56,38.4,89,A patient had a loss of smell.,1,0,0,0,1,0,True,False,False
+P1355,1,67,38.2,91,Symptoms include loss of smell.,1,0,0,1,0,0,True,False,False
+P1356,1,58,38.2,90,There are symptoms that suggest a COVID-19 infection.,1,1,0,0,0,0,True,False,False
+P1357,1,62,38.3,90,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,0,0,1,0,0,True,False,False
+P1358,1,44,38.0,90,It is suspected of being due to sore throat and fatigue.,1,0,0,0,0,0,True,False,False
+P1359,1,70,39.3,84,Findings show that there is chest pain.,0,1,0,0,0,1,False,True,False
+P1360,0,48,38.0,90,The sore throat is confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1361,1,63,39.3,86,The presence of chest pain is indicative of pneumonia.,0,1,0,0,0,0,False,True,False
+P1362,0,61,39.3,86,The patient has a loss of smell and cough.,0,1,0,0,1,0,False,True,False
+P1363,1,52,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1364,0,62,38.1,90,The patient had fatigue and was positive for COVID-19.,1,0,0,0,0,0,True,False,False
+P1365,0,48,36.6,95,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1366,0,45,38.2,91,Loss of smell and fatigue is suspected.,1,0,0,0,0,0,True,False,False
+P1367,0,46,36.7,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1368,0,45,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1369,0,68,38.4,90,The symptoms include dry cough.,1,0,0,0,0,0,True,False,False
+P1370,0,48,36.6,95,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1371,0,29,36.6,97,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1372,1,72,39.4,84,The patient has a cough and fatigue.,1,1,0,0,0,1,False,True,False
+P1373,1,48,39.1,86,Pneumonia is indicated by presence of chest pain and chest pain.,0,1,0,0,0,0,False,True,False
+P1374,1,35,36.7,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1375,0,44,36.5,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1376,1,66,39.1,85,The patient has a loss of taste.,0,0,0,0,0,1,False,True,False
+P1377,1,50,38.3,91,It is suspected of being due to sore throat and fatigue.,1,1,0,0,0,0,True,False,False
+P1378,1,50,39.1,87,The patient suffers from fatigue.,0,1,0,0,1,0,False,True,False
+P1379,1,65,39.3,85,The presence of chest pain is indicative of pneumonia.,0,1,0,0,1,0,False,True,False
+P1380,0,61,38.2,90,There are reports of chest pain and loss of smell/taste.,1,0,0,1,0,0,True,False,False
+P1381,1,59,38.3,89,There are reports of loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1382,1,65,39.2,85,Dry cough and chest pain are signs of pneumonia.,0,1,0,0,0,1,False,True,False
+P1383,0,41,36.5,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1384,1,62,39.2,87,The patient has a loss of smell and cough.,0,1,0,0,1,0,False,True,False
+P1385,0,54,39.2,86,The findings show dry cough and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P1386,0,48,36.6,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1387,1,41,36.5,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1388,1,63,38.7,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P1389,0,48,39.1,86,The presence of chest pain is indicative of pneumonia.,1,1,0,0,0,0,False,True,False
+P1390,0,59,39.0,86,The patient has a loss of smell and cough.,0,1,0,0,0,1,False,True,False
+P1391,0,55,39.1,85,There are signs of pneumonia in the chest X-ray.,0,1,0,0,1,0,False,True,False
+P1392,0,59,39.2,86,The patient is suffering from sore throat.,0,1,0,0,0,0,False,True,False
+P1393,0,43,36.6,97,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1394,1,55,39.1,87,The patient has a cough and chest pain.,1,1,0,0,0,0,False,True,False
+P1395,0,37,36.6,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1396,1,59,38.5,89,A patient had a loss of smell.,0,0,0,0,1,0,True,False,False
+P1397,1,38,36.7,99,The patient appears healthy.,0,1,0,0,0,0,False,False,True
+P1398,1,35,36.6,97,No abnormal symptoms were reported by the patient.,0,0,0,0,0,0,False,False,True
+P1399,0,48,38.0,90,A patient had a loss of smell.,1,0,0,1,0,0,True,False,False
+P1400,1,52,39.0,87,The presence of sore throat and chest pain is indicative of pneumonia.,1,1,0,0,1,0,False,True,False
+P1401,0,54,39.2,86,The patient has sore throat that is consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P1402,1,57,39.1,86,The presence of chest pain is indicative of pneumonia.,1,1,0,0,0,0,False,True,False
+P1403,0,67,38.3,89,It is suspected that it is due to fatigue.,1,0,0,1,0,0,True,False,False
+P1404,0,36,38.0,91,There are symptoms of a COVID-19 infection.,1,0,0,0,0,0,True,False,False
+P1405,0,64,38.5,89,It's suspected that it's due to illness and fatigue.,0,0,0,0,0,0,True,False,False
+P1406,1,45,38.1,90,There was a confirmed COVID-19 case of mild chest pain.,1,0,0,1,0,0,True,False,False
+P1407,1,46,38.2,91,There are symptoms that may be related to COVID-19 infection.,1,1,0,0,0,0,True,False,False
+P1408,1,68,39.1,88,There is a loss of smell and breathing difficulty.,1,0,0,0,0,1,False,True,False
+P1409,0,49,38.1,91,There was a confirmed COVID-19 case of mild shortness of breath.,1,0,0,1,0,0,True,False,False
+P1410,0,41,37.9,90,There are reports of loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1411,1,34,36.6,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1412,1,45,36.7,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1413,1,72,39.4,84,There are signs of pneumonia on the chest X-ray.,1,1,0,0,0,1,False,True,False
+P1414,0,58,38.9,85,Dry cough and breathing difficulty were found.,1,1,0,0,0,0,False,True,False
+P1415,0,45,38.2,90,The patient had a high temperature and tested positive for Covid-19.,1,0,0,1,0,0,True,False,False
+P1416,0,31,36.6,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1417,1,38,36.7,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1418,1,34,36.8,96,The patient appears to be healthy.,0,0,0,0,0,0,False,False,True
+P1419,1,62,38.3,90,There was a confirmed COVID-19 case of mild chest pain.,1,0,0,1,0,0,True,False,False
+P1420,1,70,38.3,89,It's suspected that it's due to illness and fatigue.,1,0,0,1,0,0,True,False,False
+P1421,1,62,39.2,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P1422,0,30,36.6,96,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1423,0,54,39.2,86,The patient suffers from fatigue.,0,1,0,0,1,0,False,True,False
+P1424,0,36,36.7,99,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1425,1,68,38.4,89,It is suspected to be due to fatigue.,1,0,0,0,0,0,True,False,False
+P1426,1,38,36.6,99,The patient appears to be healthy.,0,0,0,0,0,0,False,False,True
+P1427,1,66,38.4,90,The COVID-19 case was confirmed with a mild dry cough.,1,0,0,0,0,0,True,False,False
+P1428,1,36,37.8,90,The patient had fatigue and was positive for COVID-19.,1,0,0,1,0,0,True,False,False
+P1429,0,68,39.3,85,A patient has a cough and chest pain.,0,1,0,0,1,0,False,True,False
+P1430,0,61,38.3,89,The patient had trouble breathing and was positive for Covid-19.,1,0,0,0,0,0,True,False,False
+P1431,0,48,38.1,91,There are reports of a loss of smell and taste.,1,1,0,0,0,0,True,False,False
+P1432,0,50,38.3,91,There are reports of chest pain and loss of smell/taste.,1,0,0,0,1,0,True,False,False
+P1433,0,62,38.9,86,The patient suffers from fatigue.,0,1,0,0,0,0,False,True,False
+P1434,0,41,36.6,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1435,1,61,38.9,88,The patient is suffering from sore throat.,1,1,0,0,0,0,False,True,False
+P1436,1,40,36.7,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1437,0,34,36.6,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1438,0,44,38.3,91,The patient had a loss of smell.,1,0,0,0,0,0,True,False,False
+P1439,0,70,38.3,90,There are reports of loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P1440,1,53,38.3,89,There are reports of fatigue and a loss of smell.,1,0,0,0,0,0,True,False,False
+P1441,1,66,38.4,90,COVID-19 is suspected of being due to fatigue.,1,0,0,0,0,0,True,False,False
+P1442,1,57,39.2,85,The patient is suffering from fatigue.,0,1,0,0,0,1,False,True,False
+P1443,1,70,39.3,84,A patient has a loss of taste and cough.,0,1,0,0,0,1,False,True,False
+P1444,1,68,38.4,89,There are reports of loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1445,1,69,39.3,85,The patient has a loss of smell and cough.,0,1,0,0,0,0,False,True,False
+P1446,0,52,38.2,91,There are symptoms that suggest a COVID-19 infection.,1,1,0,0,0,0,True,False,False
+P1447,1,63,38.7,85,The patient is suffering from a lung disease.,0,1,0,0,1,0,False,True,False
+P1448,0,69,38.3,90,There are reports of loss of taste and smell.,1,0,0,1,0,0,True,False,False
+P1449,1,62,39.2,85,The findings show sore throat and breathing difficulties.,1,1,0,0,0,0,False,True,False
+P1450,0,59,39.2,86,The presence of fatigue and chest pain is indicative of pneumonia.,0,1,0,0,0,0,False,True,False
+P1451,0,49,38.1,91,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1452,0,61,38.2,91,It is suspected that it is due to sore throat and fatigue.,1,1,0,0,0,0,True,False,False
+P1453,1,68,38.1,89,There are reports of a loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1454,1,50,38.3,91,There are reports of loss of smell and taste.,1,1,0,0,0,0,True,False,False
+P1455,0,49,36.5,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1456,0,48,36.6,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1457,0,65,38.9,85,A patient has a cough and a dry cough.,1,0,0,0,1,0,False,True,False
+P1458,0,59,39.0,86,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,0,False,True,False
+P1459,1,70,39.1,84,There is a loss of taste and breathing difficulty.,0,1,0,0,0,0,False,True,False
+P1460,1,40,36.7,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1461,0,48,36.6,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1462,0,63,38.4,90,A patient had a sore throat.,1,0,0,0,0,0,True,False,False
+P1463,0,60,39.2,86,There is sore throat and chest pain.,1,1,0,0,0,0,False,True,False
+P1464,1,39,36.4,96,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1465,0,42,38.1,90,The sore throat is confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1466,0,63,38.4,90,There are reports of fatigue and loss of smell.,1,0,0,0,0,0,True,False,False
+P1467,0,55,39.0,86,There are signs of pneumonia with dry cough on the chest X-ray.,0,0,0,0,0,1,False,True,False
+P1468,0,32,36.5,97,There is a routine check-up and normal findings.,0,0,0,0,0,0,False,False,True
+P1469,1,59,39.0,86,The patient has chest pain that is consistent with pneumonia.,1,1,0,0,0,0,False,True,False
+P1470,1,49,38.1,91,The COVID-19 case had a loss of smell.,1,0,0,0,0,0,True,False,False
+P1471,1,49,38.2,91,COVID-19 is suspected of being due to fatigue.,1,0,0,0,0,0,True,False,False
+P1472,1,48,39.1,85,The patient has a cough and a short breath.,0,1,0,0,1,0,False,True,False
+P1473,1,59,39.0,86,A patient has a sore throat and cough.,1,1,0,0,0,0,False,True,False
+P1474,0,57,38.3,90,The patient had fatigue and was positive for COVID-19.,1,0,0,1,0,0,True,False,False
+P1475,1,35,36.6,97,All test results were normal.,0,0,0,0,0,0,False,False,True
+P1476,1,45,36.7,97,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1477,0,68,39.3,85,Findings show fatigue and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P1478,1,56,38.4,89,It is suspected that it is due to sore throat and fatigue.,1,0,0,0,1,0,True,False,False
+P1479,1,54,38.2,90,The sore throat is confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1480,1,38,36.6,99,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1481,1,40,36.5,96,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1482,1,48,38.2,90,The symptoms include dry cough.,1,0,0,1,0,0,True,False,False
+P1483,1,69,39.3,85,The patient is consistent with pneumonia.,0,1,0,0,0,0,False,True,False
+P1484,1,49,38.1,91,Mild fatigue was confirmed by the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P1485,1,62,39.2,85,Findings show fatigue and breathing difficulties.,1,1,0,0,0,0,False,True,False
+P1486,0,58,38.4,90,Symptoms include dry cough.,1,0,0,1,0,0,True,False,False
+P1487,0,47,36.6,97,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1488,0,46,36.7,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1489,0,39,36.7,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1490,1,68,38.2,90,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1491,0,34,36.7,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1492,0,47,38.8,86,The patient has a cough and fatigue.,1,0,0,0,0,1,False,True,False
+P1493,0,43,36.6,97,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1494,0,47,36.5,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1495,1,48,39.0,87,Findings show sore throat and breathing difficulties.,1,0,0,0,0,1,False,True,False
+P1496,0,60,39.1,87,A patient has a cough and chest pain.,1,1,0,0,1,0,False,True,False
+P1497,0,54,39.2,86,The presence of sore throat and chest pain is indicative of pneumonia.,0,1,0,0,1,0,False,True,False
+P1498,0,46,38.1,91,The symptoms include fatigue.,1,1,0,0,0,0,True,False,False
+P1499,1,59,38.3,89,Loss of smell and fatigue is suspected.,1,0,0,0,0,0,True,False,False
+P1500,1,70,38.9,86,The patient has a loss of smell.,0,1,0,0,1,0,False,True,False
+P1501,0,39,36.7,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1502,0,61,39.2,85,Findings show chest pain and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P1503,0,62,38.1,90,Symptoms include dry cough.,1,0,0,0,0,0,True,False,False
+P1504,0,61,38.2,91,COVID-19 is suspected of being due to fatigue.,1,1,0,0,0,0,True,False,False
+P1505,1,63,38.7,85,The presence of fatigue and chest pain is a sign of pneumonia.,0,1,0,0,1,0,False,True,False
+P1506,1,44,36.4,96,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1507,1,45,36.7,97,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1508,1,38,36.6,99,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1509,0,52,38.4,89,There are reports of a loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1510,0,59,38.3,90,The symptoms include a sore throat.,1,1,0,0,0,0,True,False,False
+P1511,0,59,39.0,86,The patient is consistent with pneumonia.,0,1,0,0,0,0,False,True,False
+P1512,0,57,38.2,90,The patient had chest pain.,1,0,0,1,0,0,True,False,False
+P1513,0,34,36.6,99,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1514,0,46,38.9,85,There are signs of pneumonia on the chest X-ray.,1,0,0,0,1,0,False,True,False
+P1515,1,69,39.2,86,There is a loss of taste and breathing difficulty.,0,1,0,0,0,1,False,True,False
+P1516,1,64,38.1,91,There have been reports of loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1517,0,27,36.4,97,All test results were normal.,0,0,0,0,0,0,False,False,True
+P1518,0,56,39.2,86,Loss of smell and chest pain is a sign of pneumonia.,0,1,0,0,1,0,False,True,False
+P1519,1,63,39.3,86,There are signs of pneumonia with dry cough on the chest X-ray.,0,1,0,0,0,0,False,True,False
+P1520,1,44,38.0,90,The patient had a loss of taste.,1,0,0,0,0,0,True,False,False
+P1521,0,60,38.9,86,The patient has a cough and fatigue.,0,1,0,0,0,1,False,True,False
+P1522,1,42,38.3,90,There are reports of chest pain and loss of smell/taste.,1,0,0,0,0,0,True,False,False
+P1523,0,45,38.2,91,The symptoms include chest pain.,1,0,0,0,0,0,True,False,False
+P1524,0,62,38.9,86,A patient has a loss of smell and cough.,0,1,0,0,0,0,False,True,False
+P1525,1,51,38.0,90,There have been reports of dry cough and loss of smell.,1,0,0,1,0,0,True,False,False
+P1526,0,52,38.4,89,The sore throat is confirmed by the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P1527,1,70,39.3,84,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,1,False,True,False
+P1528,0,59,38.2,90,Symptoms include loss of smell.,1,0,0,1,0,0,True,False,False
+P1529,1,45,36.7,97,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1530,1,42,36.5,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1531,0,42,36.5,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1532,0,40,36.5,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1533,0,58,39.3,85,The patient has a dry cough that is consistent with pneumonia.,1,0,0,0,1,0,False,True,False
+P1534,0,65,38.9,85,The patient has fatigue consistent with pneumonia.,1,0,0,0,1,0,False,True,False
+P1535,1,65,39.2,85,There are signs of pneumonia with dry cough on the chest X-ray.,0,1,0,0,0,1,False,True,False
+P1536,1,49,36.7,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1537,0,49,38.1,91,The symptoms include dry cough.,1,0,0,1,0,0,True,False,False
+P1538,0,32,36.7,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1539,1,49,38.1,91,There was a confirmed COVID-19 case.,1,0,0,0,0,0,True,False,False
+P1540,1,68,38.4,89,Symptoms include chest pain.,1,0,0,0,0,0,True,False,False
+P1541,1,52,36.6,97,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1542,0,69,39.2,85,The findings show dry cough and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P1543,0,42,38.1,90,A confirmed COVID-19 case was observed.,1,0,0,1,0,0,True,False,False
+P1544,0,59,38.3,90,The symptoms include chest pain.,1,1,0,0,0,0,True,False,False
+P1545,0,50,38.3,90,Symptoms include chest pain.,1,0,0,1,0,0,True,False,False
+P1546,0,56,39.1,86,A patient has a cough and a dry cough.,0,1,0,0,1,0,False,True,False
+P1547,1,51,36.5,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1548,0,49,38.1,91,The patient had a sore throat.,1,0,0,1,0,0,True,False,False
+P1549,0,67,38.3,89,The COVID-19 case had a loss of smell.,1,0,0,1,0,0,True,False,False
+P1550,0,49,36.6,98,The patient appears to be healthy.,0,1,0,0,0,0,False,False,True
+P1551,0,66,39.2,86,The patient has a cough and a fever.,1,1,0,0,1,0,False,True,False
+P1552,1,37,36.5,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1553,1,60,39.0,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,0,1,False,True,False
+P1554,1,54,38.4,89,The symptoms include fatigue.,1,0,0,1,0,0,True,False,False
+P1555,1,67,38.2,91,It is suspected that it is due to fatigue.,1,0,0,1,0,0,True,False,False
+P1556,1,47,38.4,90,The patient had trouble breathing and tested positive for Covid-19.,1,0,0,0,0,0,True,False,False
+P1557,1,46,38.1,91,There are reports of dry cough and loss of smell.,1,1,0,0,0,0,True,False,False
+P1558,1,55,39.1,87,The patient has a cough and a fever.,1,1,0,0,0,0,False,True,False
+P1559,0,59,38.3,90,The patient was positive for COVID-19.,1,1,0,0,0,0,True,False,False
+P1560,0,61,38.2,91,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,1,0,0,0,0,True,False,False
+P1561,0,43,36.6,97,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1562,0,58,38.6,85,Loss of smell and chest pain is a sign of pneumonia.,1,1,0,0,1,0,False,True,False
+P1563,1,51,36.5,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1564,0,52,38.2,91,It is suspected to be due to fatigue.,1,1,0,0,0,0,True,False,False
+P1565,1,59,39.0,86,The presence of chest pain is indicative of pneumonia.,0,1,0,0,1,0,False,True,False
+P1566,0,44,36.5,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1567,1,62,39.2,85,There are signs of pneumonia on the chest X-ray.,1,1,0,0,0,0,False,True,False
+P1568,0,46,38.0,89,There are reports of a loss of smell and taste.,1,1,0,0,0,0,True,False,False
+P1569,1,62,39.2,87,The presence of chest pain is indicative of pneumonia.,0,1,0,0,1,0,False,True,False
+P1570,0,45,38.4,89,There have been reports of dry cough and loss of smell.,1,0,0,0,0,0,True,False,False
+P1571,1,66,39.0,85,Loss of smell and chest pain are signs of pneumonia.,0,1,0,0,1,0,False,True,False
+P1572,1,47,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1573,0,48,38.0,90,The fatigue was confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1574,0,45,36.5,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1575,1,54,39.1,85,The patient has chest pain that is consistent with pneumonia.,0,1,0,0,0,0,False,True,False
+P1576,1,55,38.2,89,There are symptoms that suggest a COVID-19 infection.,0,0,0,0,1,0,True,False,False
+P1577,1,63,39.2,85,The patient has a dry cough that is consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P1578,0,62,38.9,86,Loss of smell and chest pain is a sign of pneumonia.,0,1,0,0,0,0,False,True,False
+P1579,0,48,38.1,91,The symptoms include fatigue.,1,1,0,0,0,0,True,False,False
+P1580,0,65,38.9,85,There is a loss of smell and breathing difficulty.,1,0,0,0,1,0,False,True,False
+P1581,0,64,39.1,85,Dry cough and chest pain are signs of pneumonia.,0,1,0,0,0,0,False,True,False
+P1582,1,58,39.3,85,The findings show fatigue and breathing difficulties.,1,1,0,0,0,0,False,True,False
+P1583,1,35,36.7,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1584,1,42,38.3,90,There are symptoms that suggest a COVID-19 infection.,1,1,0,0,0,0,True,False,False
+P1585,1,40,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1586,0,49,36.6,98,The patient appears to be healthy.,0,1,0,0,0,0,False,False,True
+P1587,0,33,36.5,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1588,1,55,39.1,86,There is a loss of taste and breathing difficulty.,0,1,0,0,0,0,False,True,False
+P1589,0,53,38.1,90,The COVID-19 case had a loss of taste.,1,0,0,1,0,0,True,False,False
+P1590,0,58,38.6,85,The patient has a cough and a dry cough.,1,1,0,0,1,0,False,True,False
+P1591,1,41,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1592,1,59,38.3,89,The COVID-19 case was confirmed with a mild dry cough.,1,0,0,0,0,0,True,False,False
+P1593,1,41,36.5,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1594,1,49,36.5,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1595,0,29,36.5,99,The patient appears healthy.,0,0,0,0,0,0,False,False,True
+P1596,1,37,36.5,97,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1597,1,65,39.3,85,The patient is suffering from fatigue.,0,1,0,0,1,0,False,True,False
+P1598,1,63,38.7,85,The presence of fatigue and chest pain is a sign of pneumonia.,0,1,0,0,1,0,False,True,False
+P1599,1,62,38.3,90,The symptoms include dry cough.,1,0,0,1,0,0,True,False,False
+P1600,0,69,38.3,90,Symptoms include dry cough.,1,0,0,1,0,0,True,False,False
+P1601,1,49,36.5,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1602,0,43,38.0,90,A confirmed COVID-19 case was observed.,1,0,0,1,0,0,True,False,False
+P1603,1,56,38.4,89,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,0,0,0,1,0,True,False,False
+P1604,0,33,36.5,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1605,0,49,38.3,90,Symptoms include loss of taste.,1,0,0,0,0,0,True,False,False
+P1606,0,44,36.5,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1607,1,53,36.5,97,There is a routine check-up throughout the examination.,0,0,0,0,0,0,False,False,True
+P1608,0,47,36.7,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1609,1,54,38.2,90,There are reports of fatigue and loss of smell.,1,0,0,1,0,0,True,False,False
+P1610,0,46,38.0,89,The sore throat was confirmed by the COVID-19 case.,1,1,0,0,0,0,True,False,False
+P1611,0,57,38.2,90,The patient had trouble breathing and was positive for Covid-19.,1,0,0,1,0,0,True,False,False
+P1612,1,62,39.2,85,The patient has a loss of smell and cough.,0,1,0,0,1,0,False,True,False
+P1613,1,37,36.5,97,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1614,1,65,39.3,85,There is sore throat and chest pain.,0,1,0,0,1,0,False,True,False
+P1615,0,58,38.8,85,The patient is suffering from sore throat.,0,1,0,0,1,0,False,True,False
+P1616,1,53,38.3,89,A patient had a sore throat.,1,0,0,0,0,0,True,False,False
+P1617,1,34,36.8,96,No treatment was required.,0,0,0,0,0,0,False,False,True
+P1618,0,59,38.2,90,There are reports of fatigue and loss of smell.,1,0,0,1,0,0,True,False,False
+P1619,1,68,38.4,89,The sore throat is confirmed by the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P1620,1,62,38.3,90,A patient had a sore throat.,1,0,0,1,0,0,True,False,False
+P1621,1,54,38.4,89,There are symptoms that may be related to COVID-19 infection.,1,0,0,1,0,0,True,False,False
+P1622,0,70,38.3,90,The symptoms include chest pain.,1,0,0,1,0,0,True,False,False
+P1623,0,59,39.2,86,The patient is suffering from sore throat.,0,1,0,0,0,0,False,True,False
+P1624,0,37,36.6,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1625,1,64,38.1,91,Symptoms include a sore throat.,1,0,0,0,0,0,True,False,False
+P1626,0,53,39.0,86,The patient is consistent with pneumonia.,0,0,0,0,0,1,False,True,False
+P1627,1,60,39.4,87,There are signs of pneumonia on the chest X-ray.,1,1,0,0,0,0,False,True,False
+P1628,1,52,39.0,87,There are signs of pneumonia in the chest X-ray.,1,1,0,0,1,0,False,True,False
+P1629,1,63,38.7,85,Findings show chest pain and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P1630,0,56,39.1,86,The patient has a cough and a high temperature.,0,1,0,0,1,0,False,True,False
+P1631,1,54,39.1,86,The presence of chest pain is indicative of pneumonia.,0,1,0,0,0,0,False,True,False
+P1632,1,40,36.7,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1633,0,66,39.2,86,There are signs of pneumonia on the chest X-ray.,1,1,0,0,1,0,False,True,False
+P1634,0,48,38.0,90,It is suspected that it is due to loss of taste and fatigue.,1,0,0,1,0,0,True,False,False
+P1635,0,46,38.1,91,There have been reports of sore throat and loss of smell.,1,1,0,0,0,0,True,False,False
+P1636,1,59,38.3,89,There are reports of loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1637,0,66,38.4,90,The patient was positive for Covid-19.,1,1,0,0,0,0,True,False,False
+P1638,1,33,37.9,91,It is suspected to be due to fatigue.,1,0,0,0,0,0,True,False,False
+P1639,1,37,36.5,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1640,1,70,38.9,86,Findings show that there is breathing difficulty.,0,1,0,0,1,0,False,True,False
+P1641,1,48,38.2,90,It is suspected of being due to chest pain and fatigue.,1,0,0,1,0,0,True,False,False
+P1642,0,67,38.3,89,The patient had a loss of taste.,1,0,0,1,0,0,True,False,False
+P1643,0,45,38.9,85,The patient has a sore throat and cough.,0,1,0,0,1,0,False,True,False
+P1644,1,53,36.5,97,The patient appears to be healthy.,0,0,0,0,0,0,False,False,True
+P1645,1,47,36.5,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1646,0,55,39.0,86,The patient has a cough and fatigue.,0,0,0,0,0,1,False,True,False
+P1647,1,58,39.2,86,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P1648,0,67,39.2,86,Loss of taste and chest pain is a sign of pneumonia.,0,1,0,0,0,1,False,True,False
+P1649,0,34,36.7,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1650,1,36,37.8,90,It is suspected to be due to fatigue.,1,0,0,1,0,0,True,False,False
+P1651,1,68,38.2,89,There are reports of fatigue and a loss of smell.,1,1,0,0,0,0,True,False,False
+P1652,0,69,38.2,91,The patient had trouble breathing and tested positive for Covid-19.,1,0,0,1,0,0,True,False,False
+P1653,0,49,36.6,98,The patient appears to be healthy.,0,1,0,0,0,0,False,False,True
+P1654,1,68,38.2,89,The fatigue was confirmed by the COVID-19 case.,1,1,0,0,0,0,True,False,False
+P1655,0,46,38.1,91,There are reports of loss of smell and taste.,1,1,0,0,0,0,True,False,False
+P1656,1,41,36.5,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1657,1,49,38.2,91,Loss of smell is one of the symptoms.,1,0,0,0,0,0,True,False,False
+P1658,1,34,36.6,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1659,1,63,39.3,86,The patient has a cough.,0,1,0,0,0,0,False,True,False
+P1660,0,34,36.6,99,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1661,0,53,39.0,86,The patient suffers from fatigue.,0,0,0,0,0,1,False,True,False
+P1662,0,65,38.1,91,A confirmed COVID-19 case of mild tiredness was observed.,1,0,0,1,0,0,True,False,False
+P1663,0,31,36.6,97,No treatment was required.,0,1,0,0,0,0,False,False,True
+P1664,0,49,38.3,90,The symptoms include a sore throat.,1,0,0,0,0,0,True,False,False
+P1665,0,53,38.3,89,The sore throat was confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1666,1,48,39.1,85,Findings show that there are breathing difficulties.,0,1,0,0,1,0,False,True,False
+P1667,0,58,38.9,85,The patient has a loss of taste and cough.,1,1,0,0,0,0,False,True,False
+P1668,1,66,39.0,86,There is loss of taste and breathing difficulty.,0,1,0,0,0,0,False,True,False
+P1669,1,39,36.6,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1670,1,39,36.6,97,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1671,1,58,38.2,90,The symptoms include dry cough.,1,1,0,0,0,0,True,False,False
+P1672,0,67,39.2,86,Loss of taste and chest pain is a sign of pneumonia.,0,1,0,0,0,1,False,True,False
+P1673,1,51,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1674,1,50,36.7,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1675,1,63,39.3,86,Loss of taste and chest pain is a sign of pneumonia.,0,1,0,0,0,0,False,True,False
+P1676,0,58,38.4,90,There are symptoms that suggest a COVID-19 infection.,1,0,0,1,0,0,True,False,False
+P1677,0,52,38.2,91,The patient was positive for Covid-19.,1,1,0,0,0,0,True,False,False
+P1678,0,47,36.6,97,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1679,0,53,38.3,89,A patient had a loss of taste.,1,0,0,1,0,0,True,False,False
+P1680,1,60,39.3,85,Dry cough and breathing difficulty were found.,0,1,0,0,0,1,False,True,False
+P1681,1,45,38.1,89,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,0,0,0,0,0,True,False,False
+P1682,0,39,36.7,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1683,1,59,38.5,89,There was a confirmed COVID-19 case.,0,0,0,0,1,0,True,False,False
+P1684,0,43,38.2,91,The patient was positive for COVID-19.,1,0,0,1,0,0,True,False,False
+P1685,0,66,39.2,86,The presence of chest pain is indicative of pneumonia.,1,1,0,0,1,0,False,True,False
+P1686,0,69,38.3,90,Mild fatigue was confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1687,1,46,38.2,91,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,1,0,0,0,0,True,False,False
+P1688,0,44,38.0,90,A confirmed COVID-19 case was observed.,1,0,0,1,0,0,True,False,False
+P1689,1,62,39.2,85,There are signs of pneumonia in the chest X-ray.,1,1,0,0,0,0,False,True,False
+P1690,1,58,38.2,90,There was a confirmed COVID-19 case.,1,1,0,0,0,0,True,False,False
+P1691,0,63,38.4,90,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,0,0,0,0,0,True,False,False
+P1692,0,28,36.7,97,No treatment was required.,0,0,0,0,0,0,False,False,True
+P1693,1,62,39.2,87,The findings show that there are breathing difficulties.,0,1,0,0,1,0,False,True,False
+P1694,1,46,36.6,97,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1695,0,68,38.4,90,The symptoms include a sore throat.,1,0,0,0,0,0,True,False,False
+P1696,1,35,36.6,97,The patient appears to be healthy.,0,0,0,0,0,0,False,False,True
+P1697,0,42,38.1,90,It is suspected that it is due to tiredness and fatigue.,1,0,0,1,0,0,True,False,False
+P1698,1,66,39.1,85,Loss of taste and chest pain are signs of pneumonia.,0,0,0,0,0,1,False,True,False
+P1699,1,59,38.3,89,The fatigue was confirmed by the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P1700,1,55,39.1,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,0,False,True,False
+P1701,1,33,36.6,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1702,1,38,36.7,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1703,1,51,38.0,90,The patient had dry cough.,1,0,0,1,0,0,True,False,False
+P1704,0,42,38.1,90,The symptoms include fatigue.,1,1,0,0,0,0,True,False,False
+P1705,1,38,36.6,99,No abnormal symptoms have been reported by the patient.,0,0,0,0,0,0,False,False,True
+P1706,0,61,39.2,86,The findings show fatigue and breathing difficulties.,1,0,0,0,0,0,False,True,False
+P1707,1,45,38.5,89,It is suspected to be due to fatigue.,1,0,0,0,1,0,True,False,False
+P1708,1,55,39.1,86,The patient is suffering from a respiratory problem.,0,1,0,0,0,0,False,True,False
+P1709,0,43,38.2,91,COVID-19 is suspected of being due to fatigue.,1,0,0,1,0,0,True,False,False
+P1710,0,68,39.2,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P1711,1,54,38.2,90,There are symptoms that suggest a COVID-19 infection.,1,0,0,1,0,0,True,False,False
+P1712,0,45,36.5,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1713,0,42,38.1,90,There are reports of chest pain and loss of smell/taste.,1,0,0,1,0,0,True,False,False
+P1714,0,51,39.1,87,The presence of chest pain is indicative of pneumonia.,1,0,0,0,1,0,False,True,False
+P1715,1,49,38.2,91,It is suspected that it is due to loss of taste and fatigue.,1,0,0,0,0,0,True,False,False
+P1716,1,52,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1717,0,39,36.7,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1718,1,70,38.2,91,The patient had a loss of taste.,1,1,0,0,0,0,True,False,False
+P1719,1,64,39.3,84,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,1,False,True,False
+P1720,0,61,38.2,91,The patient was positive for Covid-19.,1,1,0,0,0,0,True,False,False
+P1721,1,62,39.2,87,Loss of smell and chest pain is a sign of pneumonia.,0,1,0,0,1,0,False,True,False
+P1722,1,59,39.0,86,A patient has a cough and a dry cough.,0,1,0,0,1,0,False,True,False
+P1723,1,46,38.2,91,There have been reports of sore throat and loss of smell.,1,1,0,0,0,0,True,False,False
+P1724,0,47,38.8,86,The patient has a cough and a short breath.,1,0,0,0,0,1,False,True,False
+P1725,0,56,38.8,85,The presence of chest pain and a lack of breath is indicative of pneumonia.,1,0,0,0,0,0,False,True,False
+P1726,1,70,38.3,89,It's suspected that it's due to illness and fatigue.,1,0,0,1,0,0,True,False,False
+P1727,1,60,39.2,85,The patient has a cough.,1,1,0,0,0,1,False,True,False
+P1728,0,56,38.8,85,The patient has a loss of taste.,1,0,0,0,0,0,False,True,False
+P1729,1,38,36.6,99,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1730,0,39,36.6,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1731,1,46,36.6,97,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1732,0,59,38.3,90,The patient was positive for Covid-19.,1,1,0,0,0,0,True,False,False
+P1733,1,48,39.1,85,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P1734,1,42,36.5,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1735,0,65,38.9,85,Pneumonia is indicated by presence of chest pain and chest pain.,1,0,0,0,1,0,False,True,False
+P1736,1,61,39.0,87,The patient is suffering from loss of taste.,0,1,0,0,1,0,False,True,False
+P1737,1,66,39.1,85,The patient has a cough and chest pain.,0,0,0,0,0,1,False,True,False
+P1738,1,58,39.3,85,The patient has chest pain that is consistent with pneumonia.,1,1,0,0,0,0,False,True,False
+P1739,0,70,39.4,85,Loss of taste and chest pain are signs of pneumonia.,0,1,0,0,0,1,False,True,False
+P1740,1,56,38.4,89,There was a confirmed COVID-19 case of mild shortness of breath.,1,0,0,0,1,0,True,False,False
+P1741,0,66,39.2,86,The patient has a loss of taste and cough.,1,1,0,0,1,0,False,True,False
+P1742,0,62,38.9,86,The patient has sore throat that is consistent with pneumonia.,0,1,0,0,0,0,False,True,False
+P1743,1,48,38.2,90,The symptoms include dry cough.,1,0,0,1,0,0,True,False,False
+P1744,1,72,39.1,84,The presence of chest pain and a lack of breath is indicative of pneumonia.,1,1,0,0,0,0,False,True,False
+P1745,0,45,38.9,85,There is sore throat and chest pain.,0,1,0,0,1,0,False,True,False
+P1746,0,43,36.6,97,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1747,0,64,38.5,89,There are reports of loss of smell and taste.,0,0,0,0,0,0,True,False,False
+P1748,0,47,36.5,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1749,0,45,38.4,89,It is suspected to be due to fatigue.,1,0,0,0,0,0,True,False,False
+P1750,1,47,36.5,98,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1751,0,43,38.0,90,It is suspected of being due to dry cough and fatigue.,1,0,0,1,0,0,True,False,False
+P1752,1,67,38.3,90,The fatigue was confirmed by the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1753,1,47,36.5,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1754,0,48,38.0,90,There have been reports of sore throat and loss of smell.,1,0,0,1,0,0,True,False,False
+P1755,1,55,39.0,86,Dry cough and chest pain are signs of pneumonia.,1,1,0,0,0,0,False,True,False
+P1756,1,55,38.2,89,There are reports of a loss of smell and taste.,0,0,0,0,1,0,True,False,False
+P1757,1,68,38.2,90,There are symptoms that suggest a COVID-19 infection.,1,0,0,1,0,0,True,False,False
+P1758,1,64,38.4,90,Loss of smell is one of the symptoms.,1,0,0,0,0,0,True,False,False
+P1759,1,63,39.2,85,The presence of fatigue and chest pain is a sign of pneumonia.,0,1,0,0,1,0,False,True,False
+P1760,1,68,38.4,89,There are reports of sore throat and loss of smell.,1,0,0,0,0,0,True,False,False
+P1761,0,31,36.6,97,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1762,1,59,39.0,86,A patient has a loss of smell and cough.,1,1,0,0,0,0,False,True,False
+P1763,1,54,36.5,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1764,0,61,38.2,90,There are reports of a loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P1765,0,61,39.2,86,Findings show that there is breathing difficulty.,1,0,0,0,0,0,False,True,False
+P1766,0,63,38.4,90,The patient had a sore throat.,1,0,0,0,0,0,True,False,False
+P1767,0,43,38.0,90,The COVID-19 case had a loss of taste.,1,0,0,1,0,0,True,False,False
+P1768,1,64,38.2,91,There are reports of a loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P1769,0,37,36.6,98,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1770,0,56,39.1,86,There is a loss of smell and breathing difficulty.,0,1,0,0,1,0,False,True,False
+P1771,1,59,38.3,89,A confirmed COVID-19 case of mild tiredness was observed.,1,0,0,0,0,0,True,False,False
+P1772,1,51,39.0,86,The patient is suffering from a lung disease.,0,0,0,0,0,1,False,True,False
+P1773,1,35,36.6,97,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1774,1,55,39.0,86,The patient has chest pain consistent with pneumonia.,1,1,0,0,0,0,False,True,False
+P1775,0,45,38.4,89,It is suspected of being due to dry cough and fatigue.,1,0,0,0,0,0,True,False,False
+P1776,1,53,39.1,85,The presence of chest pain and a lack of breath is indicative of pneumonia.,1,0,0,0,0,1,False,True,False
+P1777,0,52,38.4,89,It is suspected of being due to chest pain and fatigue.,1,0,0,0,0,0,True,False,False
+P1778,0,67,38.3,89,The patient was positive for COVID-19.,1,0,0,1,0,0,True,False,False
+P1779,1,41,36.5,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1780,1,41,36.5,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1781,1,45,38.5,89,The patient had fatigue and was positive for COVID-19.,1,0,0,0,1,0,True,False,False
+P1782,1,35,36.6,97,The patient appears to be healthy.,0,0,0,0,0,0,False,False,True
+P1783,1,59,38.3,89,There are reports of a loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1784,1,72,39.4,84,A patient has a cough and chest pain.,1,1,0,0,0,1,False,True,False
+P1785,0,32,36.5,97,There is a routine check-up and normal findings.,0,0,0,0,0,0,False,False,True
+P1786,0,62,38.3,90,The symptoms include a sore throat.,1,0,0,1,0,0,True,False,False
+P1787,1,53,36.5,97,There is a routine check-up and normal findings.,0,0,0,0,0,0,False,False,True
+P1788,1,59,39.0,86,Loss of taste and chest pain is a sign of pneumonia.,1,1,0,0,0,0,False,True,False
+P1789,1,65,38.2,91,There was a confirmed COVID-19 case.,1,1,0,0,0,0,True,False,False
+P1790,0,45,38.2,90,It's suspected that it's due to illness and fatigue.,1,0,0,1,0,0,True,False,False
+P1791,0,46,36.7,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1792,1,52,39.0,87,Findings show chest pain and breathing difficulties.,1,1,0,0,1,0,False,True,False
+P1793,1,45,36.6,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1794,1,34,36.8,96,No abnormal symptoms were reported by the patient.,0,0,0,0,0,0,False,False,True
+P1795,0,61,39.2,86,The patient has chest pain that is consistent with pneumonia.,1,0,0,0,0,0,False,True,False
+P1796,0,61,39.2,85,The patient has chest pain that is consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P1797,1,67,38.3,90,There have been reports of dry cough and loss of smell.,1,0,0,1,0,0,True,False,False
+P1798,0,58,38.8,85,The patient is suffering from sore throat.,0,1,0,0,1,0,False,True,False
+P1799,0,64,39.1,85,The patient has a cough and a high temperature.,0,1,0,0,0,0,False,True,False
+P1800,1,56,39.0,88,Loss of taste and chest pain are signs of pneumonia.,1,1,0,0,1,0,False,True,False
+P1801,0,47,36.7,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1802,0,67,39.2,86,Findings show that there is chest pain.,0,1,0,0,0,1,False,True,False
+P1803,1,60,39.0,85,Findings show breathing difficulty and a high temperature.,0,1,0,0,0,1,False,True,False
+P1804,1,60,38.9,87,Findings show that there is breathing difficulty.,0,0,0,0,0,1,False,True,False
+P1805,0,37,36.6,98,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1806,1,45,36.6,97,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1807,0,57,39.0,86,There are signs of pneumonia in the chest X-ray.,1,1,0,0,1,0,False,True,False
+P1808,1,62,39.2,85,A patient has a loss of smell and cough.,0,1,0,0,1,0,False,True,False
+P1809,0,61,39.0,86,There are signs of pneumonia in the chest X-ray.,1,1,0,0,0,0,False,True,False
+P1810,1,61,38.9,88,A patient has a loss of taste and cough.,1,1,0,0,0,0,False,True,False
+P1811,1,42,36.5,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1812,0,55,39.1,85,There are signs of pneumonia with dry cough on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P1813,0,41,37.9,90,The patient had a high temperature and was positive for COVID-19.,1,0,0,0,0,0,True,False,False
+P1814,0,47,36.6,97,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1815,0,62,38.9,86,There are signs of pneumonia in the chest X-ray.,0,1,0,0,0,0,False,True,False
+P1816,0,68,39.3,85,There is a loss of smell and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P1817,1,58,38.2,90,The patient was positive for Covid-19.,1,1,0,0,0,0,True,False,False
+P1818,0,40,38.1,89,A patient had a loss of smell.,1,0,0,0,0,0,True,False,False
+P1819,1,62,39.2,85,The patient has sore throat that is consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P1820,1,50,39.1,87,There are signs of pneumonia on the chest X-ray.,0,1,0,0,1,0,False,True,False
+P1821,1,59,38.5,89,It is suspected of being due to sore throat and fatigue.,0,0,0,0,1,0,True,False,False
+P1822,1,59,39.0,86,There are signs of pneumonia with dry cough on the chest X-ray.,1,1,0,0,0,0,False,True,False
+P1823,0,51,39.1,87,The patient has a loss of taste.,1,0,0,0,1,0,False,True,False
+P1824,0,48,39.1,86,Dry cough and breathing difficulty were found.,1,1,0,0,0,0,False,True,False
+P1825,0,34,36.6,99,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1826,0,60,39.2,86,The patient has a cough and fatigue.,1,1,0,0,0,0,False,True,False
+P1827,0,41,36.5,97,The patient appears healthy.,0,0,0,0,0,0,False,False,True
+P1828,0,59,39.0,86,The patient is suffering from fatigue.,0,1,0,0,0,0,False,True,False
+P1829,1,54,36.5,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1830,1,62,39.2,85,Loss of taste and chest pain are signs of pneumonia.,1,1,0,0,0,0,False,True,False
+P1831,0,53,38.1,90,There are reports of chest pain and loss of smell.,1,0,0,1,0,0,True,False,False
+P1832,0,59,38.3,90,There are reports of sore throat and loss of smell.,1,1,0,0,0,0,True,False,False
+P1833,1,68,38.1,89,Dry cough and fatigue are suspected.,1,0,0,0,0,0,True,False,False
+P1834,0,45,38.2,91,Symptoms include loss of smell.,1,0,0,0,0,0,True,False,False
+P1835,1,64,38.1,91,There are symptoms that suggest a COVID-19 infection.,1,0,0,0,0,0,True,False,False
+P1836,0,66,39.2,86,The patient has a cough and chest pain.,1,1,0,0,1,0,False,True,False
+P1837,1,32,36.6,97,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1838,0,36,38.0,91,COVID-19 is suspected of being due to fatigue.,1,0,0,0,0,0,True,False,False
+P1839,1,65,39.0,85,The patient has a cough and fatigue.,0,1,0,0,0,1,False,True,False
+P1840,0,62,38.3,90,There was a confirmed COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1841,0,65,38.9,85,The patient has a loss of smell.,1,0,0,0,1,0,False,True,False
+P1842,0,48,39.1,86,The patient has a loss of taste.,1,1,0,0,0,0,False,True,False
+P1843,0,61,39.1,85,The patient has a cough.,1,1,0,0,0,0,False,True,False
+P1844,1,60,38.4,89,Symptoms include a sore throat.,1,0,0,0,0,0,True,False,False
+P1845,1,60,38.4,89,The symptoms include chest pain.,1,0,0,0,0,0,True,False,False
+P1846,1,49,36.5,98,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1847,1,35,36.5,97,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1848,0,31,36.6,97,There is a routine check-up throughout the examination.,0,1,0,0,0,0,False,False,True
+P1849,1,53,38.3,89,There have been reports of dry cough and loss of smell.,1,0,0,0,0,0,True,False,False
+P1850,1,70,38.3,89,There are reports of a loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P1851,0,48,36.6,98,There is a routine check-up throughout the examination.,0,0,1,0,0,0,False,False,True
+P1852,1,39,36.6,97,No abnormal symptoms were reported by the patient.,0,0,1,0,0,0,False,False,True
+P1853,0,46,38.0,89,There are reports of loss of smell and taste.,1,1,0,0,0,0,True,False,False
+P1854,1,40,36.7,98,There was no treatment required.,0,0,1,0,0,0,False,False,True
+P1855,1,45,36.7,97,The patient appears healthy.,0,0,1,0,0,0,False,False,True
+P1856,1,43,36.5,98,No health issues were identified.,0,0,1,0,0,0,False,False,True
+P1857,0,68,39.3,85,The presence of chest pain is indicative of pneumonia.,1,1,0,0,0,0,False,True,False
+P1858,0,45,38.2,90,It is suspected to be due to fatigue.,1,0,0,1,0,0,True,False,False
+P1859,1,37,36.5,97,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1860,1,66,39.0,85,Loss of taste and chest pain are signs of pneumonia.,0,1,0,0,1,0,False,True,False
+P1861,0,61,39.3,86,The patient has fatigue consistent with pneumonia.,0,1,0,0,1,0,False,True,False
+P1862,0,49,38.1,91,There was a loss of smell in the COVID-19 case.,1,0,0,1,0,0,True,False,False
+P1863,0,31,36.6,97,All test results were normal.,0,1,0,0,0,0,False,False,True
+P1864,1,37,36.6,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1865,0,66,38.4,90,It is suspected that it is due to loss of smell and fatigue.,1,1,0,0,0,0,True,False,False
+P1866,1,54,39.1,85,The presence of chest pain is indicative of pneumonia.,0,1,0,0,0,0,False,True,False
+P1867,1,45,38.1,90,There are reports of a loss of smell and taste.,1,0,0,1,0,0,True,False,False
+P1868,0,33,36.5,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1869,1,32,36.6,97,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1870,0,64,38.5,89,It is suspected that it is due to fatigue.,0,0,0,0,0,0,True,False,False
+P1871,1,54,36.5,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1872,0,37,36.6,98,No treatment was required.,0,0,1,0,0,0,False,False,True
+P1873,1,34,36.6,98,All test results were normal.,0,0,1,0,0,0,False,False,True
+P1874,0,41,37.9,90,The patient had a dry cough.,1,0,0,0,0,0,True,False,False
+P1875,1,72,39.1,84,The presence of fatigue and chest pain is indicative of pneumonia.,1,1,0,0,0,0,False,True,False
+P1876,1,69,39.2,86,The patient has a dry cough.,0,1,0,0,0,1,False,True,False
+P1877,0,61,39.0,86,The patient has fatigue consistent with pneumonia.,1,1,0,0,0,0,False,True,False
+P1878,1,54,39.1,86,The presence of sore throat and chest pain is indicative of pneumonia.,0,1,0,0,0,0,False,True,False
+P1879,0,68,38.4,90,There are reports of a loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1880,0,49,38.1,91,There was a confirmed COVID-19 case of mild chest pain.,1,0,0,1,0,0,True,False,False
+P1881,0,63,39.1,86,There are signs of pneumonia in the chest X-ray.,1,1,0,0,0,0,False,True,False
+P1882,0,45,38.4,89,The patient had a loss of taste.,1,0,0,0,0,0,True,False,False
+P1883,1,50,36.7,98,No abnormal symptoms have been reported by the patient.,0,0,1,0,0,0,False,False,True
+P1884,1,62,38.4,90,There are reports of a loss of smell and taste.,1,0,0,0,0,0,True,False,False
+P1885,0,66,38.3,90,The sore throat is confirmed by the COVID-19 case.,1,0,0,0,0,0,True,False,False
+P1886,0,57,38.2,90,The COVID-19 case had a loss of taste.,1,0,0,1,0,0,True,False,False
+P1887,0,60,38.8,86,Findings show chest pain and breathing difficulties.,0,1,0,0,1,0,False,True,False
+P1888,0,65,38.9,85,There is a loss of smell and breathing difficulties.,1,0,0,0,1,0,False,True,False
+P1889,0,58,38.6,85,The presence of chest pain and a high temperature is indicative of pneumonia.,1,1,0,0,1,0,False,True,False
+P1890,0,44,38.0,90,COVID-19 is suspected of being due to fatigue and shortness of breath.,1,0,0,1,0,0,True,False,False
+P1891,1,40,36.7,97,There is a routine check-up and normal findings.,0,0,1,0,0,0,False,False,True
+P1892,1,60,38.4,89,The patient had fatigue and was positive for COVID-19.,1,0,0,0,0,0,True,False,False
+P1893,1,69,39.2,86,"The patient has a high temperature, consistent with pneumonia.",0,1,0,0,0,1,False,True,False
+P1894,1,45,38.1,89,There are symptoms that suggest a COVID-19 infection.,1,0,0,0,0,0,True,False,False
+P1895,1,52,39.0,87,The patient has sore throat that is consistent with pneumonia.,1,1,0,0,1,0,False,True,False
+P1896,0,29,36.5,99,There was no treatment required.,0,0,0,0,0,0,False,False,True
+P1897,0,59,39.2,86,The presence of chest pain and a high temperature is indicative of pneumonia.,0,1,0,0,0,0,False,True,False
+P1898,1,65,38.2,91,There was a confirmed COVID-19 case.,1,1,0,0,0,0,True,False,False
+P1899,0,47,36.6,97,The patient appears to be healthy.,0,0,1,0,0,0,False,False,True
+P1900,1,63,38.7,85,Loss of taste and chest pain is a sign of pneumonia.,0,1,0,0,1,0,False,True,False

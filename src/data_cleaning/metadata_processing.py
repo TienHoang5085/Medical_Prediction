@@ -70,5 +70,5 @@ def standardize_csv(input_file, output_file):
     
     df.to_csv(output_file, index=False)
 
-# Ví dụ chạy
-standardize_csv(f"C:\Users\Lenovo\Desktop\Project ML\Medical Prediction - Copy\data\metadata.csv", f"C:\Users\Lenovo\Desktop\Project ML\Medical Prediction - Copy\data\metadata_clean.csv")
+
+standardize_csv(f"../../data/metadata.csv", f"../../data/metadata_clean.csv")
