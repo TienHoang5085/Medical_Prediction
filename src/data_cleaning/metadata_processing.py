@@ -41,7 +41,6 @@ def clean_po2(val):
     return match[0] if match else ""
 
 def clean_notes(row):
-    # ví dụ: "61M, fever and dry cough, desaturation to 88% RA. Tested positive for COVID-19."
     parts = []
     if row["age"] and row["sex"]:
         parts.append(f"{row['age']}{row['sex']}")
