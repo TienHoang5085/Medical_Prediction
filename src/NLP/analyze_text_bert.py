@@ -121,41 +121,25 @@ results["Logistic Regression"] = {
 trained_models["Logistic Regression"] = lr
 
 # Random Forest
-# ================== TRAIN RANDOM FOREST ==================
 rf = RandomForestClassifier(
     n_estimators=200,
     random_state=RANDOM_STATE
 )
-
 rf.fit(X_train, y_train)
-
-# ================== PREDICTION ==================
 y_pred_rf = rf.predict(X_test)
-
-# ================== EVALUATION ==================
 results["Random Forest"] = {
     "accuracy": accuracy_score(y_test, y_pred_rf),
-    "f1_weighted": f1_score(y_test, y_pred_rf, average="weighted"),
-    "classification_report": classification_report(
-        y_test,
-        y_pred_rf,
-        target_names=label_names,
-        digits=4
-    )
+    "f1": f1_score(y_test, y_pred_rf, average="weighted"),
+    "report": classification_report(y_test, y_pred_rf, target_names=label_names, digits=4)
 }
-
 trained_models["Random Forest"] = rf
 
-
-# ================== PRINT RESULTS ==================
-print("\n" + "=" * 10 + "  KẾT QUẢ (BERT + ML)  " + "=" * 10 + "\n")
-
-for model_name, metrics in results.items():
-    print(f"--- {model_name} ---")
-    print(f"Accuracy     : {metrics['accuracy']:.4f}")
-    print(f"F1-weighted  : {metrics['f1_weighted']:.4f}")
-    print(metrics["classification_report"])
-
+print("\n==== KẾT QUẢ ĐÁNH GIÁ ====\n")
+for name, res in results.items():
+    print(f"--- {name} ---")
+    print("Accuracy:", res["accuracy"])
+    print("F1-weighted:", res["f1"])
+    print(res["report"])
 
 # ========== Logistic Regression ==========
 plot_learning_curve_fixed_test(
@@ -200,3 +184,5 @@ for name, model_obj in trained_models.items():
     print(f"\n Model: {name}")
     print("Classes learned:", model_obj.classes_)
     print("Number of classes:", len(model_obj.classes_))
+
+
